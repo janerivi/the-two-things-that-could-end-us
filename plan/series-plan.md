@@ -41,7 +41,7 @@ Frame: own hook → three-sentence big-picture recap linking the hub → one cla
 | 8 | Why we can't red-team our way out of this | 8 | Essay §6, §6.3–6.4; Astra eval-awareness; swarm evaluation |
 | 9 | Why a ban, not a speed limit | 9 | CASP asks, Klein, FLI statement, PauseAI; scope; what a ban means; verification |
 | 12 | If we survive, do we get utopia? Disempowerment, concentrated power, races to the bottom | 6b (new hub section) | Gradual Disempowerment; CASP on decisive leads; Moloch dynamics (race to the bottom, Klein's collective-action trap); films MOLOCH and DELISTED (Omeleto) |
-| 13 | If they think it could kill us, why are they building it? | 3 | Altman 2015 blog and email (via Klein), lab founding chain, Amodei, Cruz, Anthropic conditional pause, Pachocki, Moloch; structure over good intentions |
+| 13 | If they think it could kill us, why are they building it? | 3 | Solutionist culture ("solve intelligence, solve everything"; "make AI go well" as identity; successionist fringe; ageing), pipe-dream turn after Mythos/HF/maths, Altman 2015 blog and email (via Klein), lab founding chain, Amodei, Cruz, Anthropic conditional pause, Pachocki, Moloch; structure over good intentions |
 | 10 | An experiment that would tell us if it's ever safe to resume | 9 | Essay §12 |
 | 11 | Where I expect to be wrong | 10 | Essay §7, §11; BVSR, Wiggins, Jaeger |
 

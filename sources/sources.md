@@ -31,3 +31,8 @@ Checked 2026-10-07 by Sagan unless noted.
 | S23 | ~10,000 agents over ~88 hours for the Navier–Stokes run | press coverage | secondary (unverified; not in the paper) |
 | S24 | Altman (Feb 2015): superhuman machine intelligence "probably the greatest threat to the continued existence of humanity" | [Machine intelligence, part 1](https://blog.samaltman.com/machine-intelligence-part-1) | verified from memory of the primary; re-read before publishing |
 | S25 | Amodei: "a country of geniuses in a datacenter" | [Machines of Loving Grace (Oct 2024)](https://www.darioamodei.com/essay/machines-of-loving-grace) | verified from memory of the primary; re-read before publishing |
+| S26 | DeepMind's founding mission: "solve intelligence, and then use that to solve everything else" | Hassabis, many interviews 2010s | from memory; find a primary quote before publishing |
+| S27 | Richard Sutton: succession to AI is inevitable and should be welcomed ("AI succession") | Sutton talks/essays 2023 | from memory; find link before publishing |
+| S28 | Larry Page reportedly called Musk a "speciesist" | Tegmark, *Life 3.0* (2017); Musk retellings | reported; secondary; keep "reportedly" |
+| S29 | Yampolskiy: superintelligence may be uncontrollable in principle | *AI: Unexplainable, Unpredictable, Uncontrollable* (2024) | from memory; check |
+| S30 | Anthropic kept Claude Mythos from general release; deployed via Project Glasswing for defensive vulnerability work | [Anthropic, Project Glasswing](https://www.anthropic.com/glasswing) | secondary (KNOWLEDGE notes); re-read primary |
