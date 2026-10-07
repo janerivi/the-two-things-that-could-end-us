@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- true distance-from-corner: circular iso-lines in plot space, steep falloff near the corner -->
+    <radialGradient id="danger" cx="940" cy="90" r="985" gradientUnits="userSpaceOnUse">
+      <stop offset="0"    stop-color="#a01810" stop-opacity="0.64"/>
+      <stop offset="0.07" stop-color="#a81c12" stop-opacity="0.52"/>
+      <stop offset="0.14" stop-color="#b32b1c" stop-opacity="0.31"/>
+      <stop offset="0.22" stop-color="#bc3a26" stop-opacity="0.155"/>
+      <stop offset="0.32" stop-color="#c25036" stop-opacity="0.07"/>
+      <stop offset="0.46" stop-color="#c66a4c" stop-opacity="0.025"/>
+      <stop offset="0.66" stop-color="#c98a6a" stop-opacity="0"/>
+      <stop offset="1"    stop-color="#c98a6a" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="tarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6470"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="700" fill="#ffffff"/>
+  <rect x="110" y="90" width="830" height="530" fill="url(#danger)"/>
+  <rect x="110" y="90" width="830" height="530" fill="none" stroke="#c8ccd2" stroke-width="1"/>
+
+  <!-- axes -->
+  <line x1="110" y1="620" x2="960" y2="620" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="110" y1="620" x2="110" y2="70"  stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="118" y="650" font-size="15" fill="#3c4450">Narrow</text>
+  <text x="940" y="650" font-size="15" fill="#3c4450" text-anchor="end">General</text>
+  <text x="535" y="676" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="middle">Reach</text>
+  <text x="92" y="614" font-size="15" fill="#3c4450" text-anchor="end">Limited</text>
+  <text x="92" y="96"  font-size="15" fill="#3c4450" text-anchor="end">Paradigmatic</text>
+  <text x="46" y="355" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 46 355)">Depth</text>
+
+  <!-- extinction corner -->
+  <g transform="translate(886 112)">
+    <circle cx="0" cy="-2" r="15" fill="#1a1a1a"/>
+    <circle cx="-5.4" cy="-4" r="4.1" fill="#ffffff"/>
+    <circle cx="5.4" cy="-4" r="4.1" fill="#ffffff"/>
+    <path d="M -1.9 3.4 L 0 7.4 L 1.9 3.4 Z" fill="#ffffff"/>
+    <rect x="-8" y="12" width="16" height="9" rx="2.6" fill="#1a1a1a"/>
+    <line x1="-2.7" y1="12" x2="-2.7" y2="21" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="2.7"  y1="12" x2="2.7"  y2="21" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <text x="866" y="152" font-size="13.5" font-weight="600" fill="#7a1f18" text-anchor="end">boundary of AI creativity</text>
+  <text x="866" y="169" font-size="13.5" font-weight="600" fill="#7a1f18" text-anchor="end">sufficient for extinction</text>
+
+  <!-- 2016-2019 merge track: AlphaGo to AlphaZero to MuZero -->
+  <line x1="215" y1="323" x2="452" y2="323" stroke="#5b6470" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#tarrow)"/>
+  <circle cx="210" cy="323" r="5.5" fill="#5b6470"/>
+  <circle cx="334" cy="323" r="5.5" fill="#5b6470"/>
+  <circle cx="459" cy="323" r="5.5" fill="#5b6470"/>
+  <text x="470" y="328" font-size="13.5" fill="#3c4450">2016–19 · AlphaGo, then AlphaZero, then MuZero</text>
+  <text x="470" y="345" font-size="12.5" fill="#6c757d">reach grows, depth roughly constant</text>
+
+  <!-- anchors -->
+  <g fill="#1a1a1a">
+    <circle cx="176" cy="567" r="7.5" fill="#2f7d4f"/>
+    <text x="190" y="565" font-size="13.5">~1997 · EMI</text>
+    <text x="190" y="581" font-size="12.5" fill="#6c757d">inherited relevance, one domain</text>
+
+    <circle cx="201" cy="281" r="7.5"/>
+    <text x="215" y="279" font-size="13.5">2016 · AlphaGo move 37</text>
+    <text x="215" y="295" font-size="12.5" fill="#6c757d">relevance function revised, one game</text>
+
+    <circle cx="724" cy="482" r="7.5"/>
+    <text x="712" y="480" font-size="13.5" text-anchor="end">2022–23 · LLMs and diffusion</text>
+    <text x="712" y="496" font-size="12.5" fill="#6c757d" text-anchor="end">limited-general</text>
+
+    <circle cx="409" cy="244" r="8.5" fill="#1f4f8b"/>
+    <text x="423" y="242" font-size="13.5" font-weight="600">Sep 2026 · Navier–Stokes cluster</text>
+    <text x="423" y="258" font-size="12.5" fill="#6c757d">forced blowup; humans chose the line of attack</text>
+
+    <circle cx="700" cy="230" r="8.5" fill="#1f4f8b"/>
+    <text x="714" y="228" font-size="13.5" font-weight="600">Oct 2026 · OpenAI maths release</text>
+    <text x="714" y="244" font-size="12.5" fill="#6c757d">breadth past any human</text>
+
+    <circle cx="608" cy="198" r="8.5"/>
+    <text x="594" y="194" font-size="13.5" font-weight="600" text-anchor="end">2026 · agentic vulnerability discovery</text>
+    <text x="594" y="210" font-size="12.5" fill="#6c757d" text-anchor="end">verifiable, vast, adversarial</text>
+
+    <circle cx="560" cy="420" r="7.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" stroke-dasharray="3 2.5"/>
+    <text x="574" y="418" font-size="13.5">Jul 2026 · Hugging Face agent swarm</text>
+    <text x="574" y="434" font-size="12.5" fill="#6c757d">throughput plus emergent coordination</text>
+
+    <g transform="translate(660 575)" stroke="#7a1f18" stroke-width="2.4" stroke-linecap="round">
+      <line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/>
+    </g>
+    <text x="674" y="573" font-size="13.5">Jul 2026 · Princeton shadow evaluation</text>
+    <text x="674" y="589" font-size="12.5" fill="#6c757d">single agent generates, fails to reframe</text>
+  </g>
+
+  <!-- empty corner note -->
+  <text x="866" y="192" font-size="13" fill="#7a1f18" font-style="italic" text-anchor="end">the corner is still empty</text>
+</svg>

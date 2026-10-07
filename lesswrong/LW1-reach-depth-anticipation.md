@@ -44,7 +44,9 @@ The vocabulary comes from Thomas Kuhn. *The Structure of Scientific Revolutions*
 
 Both axes are continuous and have no ceiling. Four regions follow: limited-narrow (LNC), paradigmatic-narrow (PNC), limited-general (LGC) and **paradigmatic-general (PGC)**. They are regions on a gradient, not bins. I suspect most arguments about whether AI is "creative yet" are two people pointing at different regions without noticing: one at reach, the other at depth.
 
-*[Figure 1: Reach on the horizontal, depth on the vertical. Radial gradient from the top-right corner, marked with a skull and labelled "boundary of AI creativity sufficient for extinction". No bins, only distance from the corner.]*
+![Figure 1](../figures/fig1-two-axes.png)
+
+*Figure 1. The frame. Reach runs from narrow to general on the horizontal axis, depth from limited to paradigmatic on the vertical. The colour is continuous because the axes are: there are no bins, only distance from the corner marked as the boundary of AI creativity sufficient for extinction.*
 
 **"General" does not have to mean fully general.** The danger band curves down and left well before the corner. It needs only enough reach to cover the relevant surface, and software already touches nearly every real-world domain, so reach can arrive through one field rather than many.
 
@@ -118,9 +120,17 @@ Four developments sharpen the model.
 
 **7.3 Generality is spreading through verifier-rich domains.** OpenAI's 6 October 2026 release (722 manuscripts across many fields from one internal model) and the September Navier–Stokes results put reach in mathematics past any individual human. But every domain where frontier systems now perform at top-human level has a cheap verifier: proof checkers, running exploits, passing tests, measured experimental outcomes. Generality so far is generality *across verifier-rich domains*. The boundary that matters is reached when that breadth extends into domains without verifiers, together with self-selected problems.
 
+![Figure 2](../figures/fig3-domain-merges.png)
+
+*Figure 2. How reach advances: adjacent domains merge, in order of shared representational structure. Computer science is the load-bearing member of the formal-science bloc because it carries simulation, the bridge from formalism to atoms, and from there to autonomous industry.*
+
 **7.4 Research judgement is being measured.** P-Zero Research reports "experimental research taste", measured as a compute multiplier, doubling roughly every three months since December 2025, with the best model above its expert-human baseline. This measures selection of experiments within a given research setup, not selection of the question. It matters for two reasons: it is the variable the AI Futures Model treats as setting the pace from automated coding to superintelligence, and anything measured this way can be trained against. A measurement instrument for taste is a verifier for taste, which is the route by which open-ended AI research could stop being a no-verifier domain.
 
 ## 8. The map, October 2026
+
+![Figure 3](../figures/fig4-anchors-2026-10.png)
+
+*Figure 3. Anchors as of October 2026. Placements are judgement, not measurement. EMI and move 37 sit far left: one style, one game. The AlphaGo lineage moves right at roughly constant depth. The 2026 points rise inside verifier-rich domains; the Princeton result marks where single agents still fail; the corner is still empty.*
 
 | Anchor | Date | Reach | Depth | Why it sits there |
 |---|---|---|---|---|
@@ -145,6 +155,10 @@ Three failures become available at different points on the map:
 | **Defeating oversight** | software, engineering, physical process, enough human behaviour to route around supervisors | realize relevance the overseers' channels cannot supply |
 | **Recursive self-improvement (RSI)** | AI research: architectures, training, objectives, evaluation, infrastructure | revise what a mind-building approach even is |
 | **Autonomous industry** | engineering, materials, control, logistics, manufacturing | restructure variables under physical consequence |
+
+![Figure 4](../figures/fig2-failure-regions.png)
+
+*Figure 4. Where each failure becomes available. Circles are uncertainty around a point estimate, not thresholds, and they overlap because the three are not confidently separable. If recursive self-improvement arrives, it drags all three up and to the right.*
 
 These map onto the series' two **minimum required core lethalities**: (1) autonomous paradigmatic invention and discovery, reached either directly or via RSI, and (2) an **industrial singularity**, autonomous end-to-end industry from mining and energy through manufacture with no human in the loop. Lethality 1 supplies the means; lethality 2 removes the dependence that currently keeps humans necessary. That dependence is also the mechanism in Kulveit et al.'s *Gradual Disempowerment* (ICML 2025): societal systems stay aligned with human interests largely because they need human participation.
 
@@ -201,4 +215,28 @@ The swarm comparison in §10 (Prediction 6) is cheaper and could be run now.
 - Is there a better operationalisation of "frame revision" than §7.1's frame abandonment, one that could be scored automatically?
 - Which of the anchor placements in §8 would you move, and why?
 
-*Full references: [TODO append from earlier/2026-09-08-essay.md].*
+---
+
+*This piece was developed in dialogue with an AI model (Claude, made by Anthropic), used for literature search, criticism and drafting. The framework, the central claims and the conclusions are mine.*
+
+## References
+
+**2026 evidence.** OpenAI, "Sharing AI progress in mathematics" (6 Oct 2026) and github.com/openai/math. Fellows of the Royal Society, open letter to Sir Paul Nurse (16 Sept 2026). Alpöge & Buckmaster, smooth-forcing blowup papers for IPM, Boussinesq and 3D Euler (Aug–Sept 2026); OpenAI, forced Navier–Stokes blowup (Sept 2026); Fefferman, Clay Navier–Stokes problem statement. Kirgis, Kapoor, Narayanan et al., "Can AI agents conduct research?", arXiv:2607.27191 (2026). METR, independent investigation of the OpenAI / Hugging Face incident (26 Aug 2026). Chan, Winter, Barto, Pachocki et al., "What if automating AI R&D triggers an intelligence explosion?", Cambridge Programme on AI Science & Policy (Sept 2026). Anthropic, "When AI builds itself" (June 2026). OpenAI, "Research acceleration: the view inside OpenAI" (Sept 2026). P-Zero Research, experimental research taste measurements (Oct 2026). Kulveit, Douglas, Ammann, Turan, Krueger & Duvenaud, "Gradual Disempowerment", ICML 2025, arXiv:2501.16946. Kokotajlo, Alexander, Larsen, Lifland & Dean, *AI 2027* (2025). Yudkowsky & Soares, *If Anyone Builds It, Everyone Dies* (2025). Woolley, Chabris, Pentland, Hashmi & Malone, "Evidence for a collective intelligence factor in the performance of human groups", *Science* 330 (2010).
+
+**Computational scientific discovery and held-out evaluation** (§12). Langley, Simon, Bradshaw & Zytkow, *Scientific Discovery: Computational Explorations of the Creative Processes* (1987) — BACON, KEKADA, and the representation-supplied caveat. Vafa, Chang, Rambachan & Mullainathan (ICML 2025) — the inductive-bias probe, this experiment in miniature, with a negative result. The vintage-LLM literature: TimeCapsuleLLM (Grigorian) and the time-stamped model families with cutoffs at 1913, 1929, 1933, 1939 and 1946; the pre-1900 physics experiment testing for relativity and quantum mechanics. TiMoE (arXiv:2508.08827) on time-sliced pretraining without future contamination.
+
+**Relevance realization and the frame problem.** Dennett, "Cognitive Wheels" (1984). Vervaeke, Lillicrap & Richards, *Journal of Logic and Computation* (2012). Vervaeke & Ferraro, "Relevance realization and the neurodynamics and neuroconnectivity of general intelligence," in *SmartData* (Springer, 2013). Andersen, Miller & Vervaeke, *Phenomenology and the Cognitive Sciences* 24:359–380 (2025). Jaeger, Riedl, Djedovic, Vervaeke & Walsh, *Frontiers in Psychology* 15:1362658 (2024) — the strongest objection to this whole approach. Conant & Ashby (1970) on regulators as models.
+
+**Creativity frameworks this model must be situated against.** Boden, *The Creative Mind* (1990/2004) — combinational, exploratory and transformational creativity; P- versus H-creativity. Wiggins (2006) — the formalization and the meta-level result. Sternberg, Kaufman & Pretz's **Propulsion Model** (*Review of General Psychology*, 1999), which sorts eight contribution types by whether they accept or reject the prevailing paradigm — the closest existing analogue to Axis 2, and finer-grained. Kirton's Adaption–Innovation theory ("doing things better" versus "doing things differently"). Kaufman & Beghetto's Four C model (2009) — a magnitude gradient, and *orthogonal* to Axis 2 rather than a version of it. Runco & Jaeger (*Creativity Research Journal* 24(1):92–96, 2012) on the novelty-plus-usefulness standard definition. Csikszentmihalyi's systems model. Simonton on BVSR, with Gabora's rebuttal. Kuhn (1962). Gentner's structure-mapping theory (*Cognitive Science*, 1983). Hofstadter & Mitchell's **Copycat**, a pre-deep-learning mechanization of dynamic salience via slipnet activation and computational temperature — the closest formal ancestor of the mechanism proposed here. Perkins on Klondike-space search.
+
+**Evolution and open-endedness.** Kauffman on the adjacent possible and the non-pre-statability of the biosphere. Gould & Vrba on exaptation. Lehman & Stanley, *Why Greatness Cannot Be Planned* (2015) — objectives are deceptive, which is why fixed rewards may be actively anti-paradigmatic. Mouret & Clune on MAP-Elites. Lehman et al., "The Surprising Creativity of Digital Evolution" (2020). Hughes, Dennis, Parker-Holder, Behbahani, Mavalankar, Shi, Schaul & Rocktäschel (ICML 2024) — novelty-plus-learnability, and this framework's nearest published peer. Wang, Lehman, Clune & Stanley (POET); Kumar, Clune, Lehman & Stanley (ASAL — foundation-model search over simulations); OMNI and OMNI-EPIC, which use learned *interestingness* rather than task reward precisely because reward-defined self-simulation closes. Schmidhuber on compression progress; Oudeyer & Kaplan on learning progress.
+
+**Model-based reinforcement learning.** Sutton, Dyna (1991). Ha & Schmidhuber, World Models (2018). Schrittwieser et al., MuZero (*Nature* 588, 2020). Hafner et al., DreamerV3 (*Nature*, 2025).
+
+**Externalized cognition and non-weight learning** (§8.1). Clark & Chalmers, "The Extended Mind" (*Analysis* 58(1):7–19, 1998). Hutchins, *Cognition in the Wild* (1995). Wang et al., Voyager (2023) — a growing skill library with no gradient updates. Shinn et al., Reflexion (NeurIPS 2023). Park et al., Generative Agents (UIST 2023). On the limits: Xie et al., "An Explanation of In-context Learning as Implicit Bayesian Inference" (ICLR 2022); Min et al., "Rethinking the Role of Demonstrations" (EMNLP 2022); Liu et al., "Lost in the Middle" (TACL 2024).
+
+**Training distribution, world models, and their critics.** Balestriero, Pesenti & LeCun (2021). Bender, Gebru, McMillan-Major & Shmitchell (FAccT 2021). Carlini et al. on memorization and extraction. For emergent world models: Li, Hopkins, Bau, Viégas, Pfister & Wattenberg (ICLR 2023); Nanda, Lee & Wattenberg (2023); Gurnee & Tegmark (ICLR 2024). Against: Vafa, Chen, Rambachan, Kleinberg & Mullainathan (NeurIPS 2024); Vafa, Chang, Rambachan & Mullainathan (ICML 2025); Mancoridis, Weeks, Vafa & Mullainathan, "Potemkin Understanding" (ICML 2025). Dziri et al., "Faith and Fate" (NeurIPS 2023). Lake & Baroni (*Nature*, 2023). Yue et al. (arXiv:2504.13837) and its rebuttals. Shumailov et al. (*Nature* 631:755–759, 2024).
+
+**Autopoiesis, computationally.** Varela, Maturana & Uribe (*BioSystems*, 1974) — theory and lattice simulation together. McMullin & Varela, "Rediscovering Computational Autopoiesis" (1997). McMullin, *Artificial Life* 10(3):277–295 (2004).
+
+**Animal and cultural innovation**, for the claim that transformational creativity is rare rather than absent outside humans. Reader & Laland, *Animal Innovation* (2003). Auersperg on Goffin's cockatoo tool manufacture (*Current Biology*, 2012; *Scientific Reports*, 2022). Noad, Cato, Bryden, Jenner & Jenner, "Cultural revolution in whale songs" (*Nature* 408:537, 2000); Garland et al. (*Current Biology* 21(8):687–691, 2011) — population-level paradigm replacement outside humans.
