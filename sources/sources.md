@@ -36,3 +36,7 @@ Checked 2026-10-07 by Sagan unless noted.
 | S28 | Larry Page reportedly called Musk a "speciesist" | Tegmark, *Life 3.0* (2017); Musk retellings | reported; secondary; keep "reportedly" |
 | S29 | Yampolskiy: superintelligence may be uncontrollable in principle | *AI: Unexplainable, Unpredictable, Uncontrollable* (2024) | from memory; check |
 | S30 | Anthropic kept Claude Mythos from general release; deployed via Project Glasswing for defensive vulnerability work | [Anthropic, Project Glasswing](https://www.anthropic.com/glasswing) | secondary (KNOWLEDGE notes); re-read primary |
+| S31 | OpenAI board fired Altman (Nov 2023): not "consistently candid in his communications"; reinstated within days | OpenAI board statement, 17 Nov 2023 | from memory; link before publishing |
+| S32 | Jan Leike resigned (May 2024): "safety culture and processes have taken a backseat to shiny products" | Leike on X, 17 May 2024 | from memory; link before publishing |
+| S33 | Sutskever founded Safe Superintelligence (June 2024) after leaving OpenAI | ssi.inc | from memory; link before publishing |
+| S34 | Musk–Page split over AI safety as background to OpenAI's founding | Musk interviews; Tegmark *Life 3.0*; Klein (S13) | secondary |

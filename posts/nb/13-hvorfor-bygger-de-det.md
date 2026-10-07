@@ -31,15 +31,27 @@ Bildet har mørkere hjørner. Et mindretall ser for seg den gode fremtiden som e
 
 Denne kulturen er jordsmonnet grunnene nedenfor vokser i, og den forklarer hvor lenge arbeidet har pågått. En grunn kan argumenteres bort. Et livsoppdrag man deler med kolleger og venner, gir man ikke lett opp, særlig ikke når det lover slutten på sykdom og fattigdom. Idealisme er grunnen til at så mange talentfulle mennesker kom, og idealisme er grunnen til at de ble, også mens faren vokste.
 
+## En kjede av mistillit
+
+Drømmen om å få KI til å gå bra skjuler et spørsmål: gå bra i hvem sine hender? Nesten alle i feltet gir samme svar. Ikke i deres.
+
+Den moderne KI-bransjen er bygget av en kjede av brudd, og hvert av dem var drevet av mistillit. I mai 2015 skrev Altman til Elon Musk at han hadde tenkt mye på om det var mulig å hindre menneskeheten i å utvikle KI, og konkluderte med [«nesten helt sikkert ikke»](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html). Skjer det uansett, er det bedre at noen andre enn Google gjør det først. Musk hadde fått mistillit til Googles Larry Page på nettopp dette punktet. OpenAI ble grunnlagt samme år som en ideell motvekt til Google og DeepMind.
+
+Så vendte mistilliten seg mot OpenAI. I 2021 forlot en gruppe ledet av Dario og Daniela Amodei selskapet for å grunnlegge Anthropic, i troen på at sikkerhet måtte komme først. I 2023 sparket OpenAIs eget styre Altman, med begrunnelsen at han ikke hadde vært «konsekvent åpen» overfor dem; han var tilbake etter få dager. I 2024 forlot OpenAIs medgründer og forskningssjef Ilya Sutskever selskapet for å grunnlegge Safe Superintelligence, og Jan Leike, som ledet OpenAIs sikkerhetsteam sammen med ham, sa opp og skrev at «sikkerhetskultur og -prosesser har måttet vike for blanke produkter». Musk, som for lengst hadde forlatt OpenAI, grunnla xAI.
+
+Hvert brudd hadde samme begrunnelse: vi skal gjøre dette mer forsiktig enn dem. Og hvert brudd la til ett laboratorium til i kappløpet, og gjorde kappløpet raskere.
+
+Nå har kjeden nådd laboratoriet som ble grunnlagt for å være det forsiktige. Anthropic er i fronten. KI skriver det meste av koden deres. Deres egen leder for sikkerhetsarbeidet anslår sjansen for at KI dreper alle mennesker innen ti år til over 10 prosent, og tilbudet deres om å pause forutsetter at alle andre pauser også. Spørsmålet folk stiller om Anthropic, er ikke lenger om de er mer forsiktige enn OpenAI. Det er om mer forsiktig er i nærheten av nok. Stadig flere, også noen som en gang trodde på den strategien, ser ut til å komme til samme konklusjon: i et våpenkappløp er det lite trolig at noe laboratorium kan gjøre dette trygt, uansett intensjoner.
+
+Det er dette mistillit ikke kan løse. Hver gründer stolte mer på seg selv enn på rivalene. Men faren handlet aldri først og fremst om hvem som hadde roret. Den ligger i selve kappløpet.
+
 ## Grunnene deres, én etter én
 
 Hver av grunnene de gir, gir mening på sine egne premisser. Det er det som gjør dem så sterke.
 
 ### 1. «Gjør ikke vi det, gjør noen verre det»
 
-I mai 2015 skrev Altman til Elon Musk at han hadde tenkt mye på om det var mulig å hindre menneskeheten i å utvikle KI, og konkluderte med [«nesten helt sikkert ikke»](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html). Skjer det uansett, resonnerte han, er det bedre at noen andre enn Google gjør det først.
-
-Den logikken har gjentatt seg ved hvert steg. OpenAI ble grunnlagt fordi grunnleggerne trodde Google DeepMind ville være uforsiktige. Anthropic ble grunnlagt av folk som mente OpenAI hadde blitt uforsiktige. xAI ble grunnlagt fordi Musk mente de andre gikk i feil retning. Hvert nytt laboratorium finnes fordi grunnleggerne ikke stolte på de eksisterende, og hvert nytt laboratorium gjør kappløpet raskere.
+Dette er kjeden av mistillit ovenfor, gjort om til en grunn. Hvert laboratorium tror rivalene er mindre forsiktige, og tror derfor at dets egen plass i fronten gjør verden tryggere. Har de alle rett om hverandre, er ingen av dem trygge.
 
 ### 2. «Man kan ikke gjøre det trygt uten å bygge det»
 

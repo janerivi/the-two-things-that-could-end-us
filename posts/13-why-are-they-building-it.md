@@ -31,15 +31,27 @@ The picture has darker corners. A minority imagine the good future as one where 
 
 This culture is the soil the reasons below grow from, and it explains how long the work has gone on. A reason can be argued away. A life's mission, shared with your colleagues and your friends, cannot easily be given up, especially when the thing it promises is the end of disease and poverty. Idealism is why so many talented people came, and idealism is why they stayed even as the danger grew.
 
+## A chain of distrust
+
+The dream of making AI go well hides a question: go well in whose hands? Almost everyone in the field gives the same answer. Not theirs.
+
+The modern AI industry is built from a chain of splits, and each one was driven by distrust. In May 2015 Altman wrote to Elon Musk that he had been thinking about whether humanity could be stopped from developing AI, and concluded ["almost definitely not"](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html). If it was going to happen anyway, better that someone other than Google did it first. Musk had come to distrust Google's Larry Page on exactly this point. OpenAI was founded that year as a non-profit counterweight to Google and DeepMind.
+
+Then the distrust turned on OpenAI. In 2021 a group led by Dario and Daniela Amodei left to found Anthropic, believing safety had to come first. In 2023 OpenAI's own board fired Altman, saying he had not been "consistently candid" with them; he was back within days. In 2024 OpenAI's co-founder and chief scientist Ilya Sutskever left to found a company called Safe Superintelligence, and the co-lead of OpenAI's safety team, Jan Leike, resigned saying that "safety culture and processes have taken a backseat to shiny products". Musk, long gone from OpenAI, founded xAI.
+
+Every split had the same justification: we will do this more carefully than they will. And every split added another lab to the race, and made the race faster.
+
+Now the chain has reached the lab that was founded to be the careful one. Anthropic sits at the frontier. AI writes most of its code. Its own head of alignment work puts the chance that AI kills all humans within a decade above 10 percent, and its offer to pause depends on everyone else pausing too. The question people ask about Anthropic is no longer whether it is more careful than OpenAI. It is whether more careful is anywhere near enough. More and more people, including some who once believed in that strategy, seem to be reaching the same conclusion: in an arms race, no lab is likely to be able to do this safely, whatever its intentions.
+
+That is what distrust can't fix. Each founder trusted themselves more than their rivals. But the danger was never mainly about who was in charge. It is in the race itself.
+
 ## Their reasons, one at a time
 
 Each of the reasons they give makes sense on its own terms. That is what makes them so powerful.
 
 ### 1. "If we don't, someone worse will"
 
-In May 2015 Altman wrote to Elon Musk that he'd been thinking about whether it was possible to stop humanity from developing AI, and concluded ["almost definitely not"](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html). If it's going to happen anyway, he reasoned, better that someone other than Google does it first.
-
-That logic has repeated at every step. OpenAI was founded because its founders thought Google DeepMind would be reckless. Anthropic was founded by people who thought OpenAI had become reckless. xAI was founded because Musk thought the others were going in the wrong direction. Each new lab exists because its founders didn't trust the existing ones, and each new lab makes the race faster.
+This is the chain of distrust above, turned into a reason. Every lab believes its rivals are less careful, so every lab believes its own place at the frontier makes the world safer. If they are all right about each other, none of them is safe.
 
 ### 2. "You can't make it safe without building it"
 
