@@ -31,7 +31,7 @@ The writer Scott Alexander gave this one a name: [Moloch](https://slatestarcodex
 
 Ezra Klein describes the AI race in exactly these terms: [a tragic collective action problem](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html), in which each company and country fears that the others care less about safety, so all of them race. In a world of powerful AI, the same pressure applies to everything else. The firm that keeps human workers loses to the one that doesn't. The country that keeps humans in charge of decisions loses to the one that lets machines decide. Nobody chooses a world without human agency. It is chosen for us, one competitive step at a time.
 
-Two short films from the Omeleto channel, [*MOLOCH*](https://www.youtube.com/watch?v=Q4aUidMZxbs) and [*DELISTED*](https://www.youtube.com/watch?v=LpQXTn7g_AA), explore what futures like these could feel like from the inside.
+Two short films show what these futures could feel like from the inside. In Tom Cozens's [*MOLOCH*](https://www.youtube.com/watch?v=Q4aUidMZxbs), Bo, a programmer whose work built one of the world's largest AI services, watches it take jobs and destabilise the economy, while her company rushes out a new version before it has been fully tested. Its effects reach her own family, and she dreams of her son being fed to the god Moloch. In Michael Patrick Clarkson's [*DELISTED*](https://www.youtube.com/watch?v=LpQXTn7g_AA), a government uses an AI to "delist" anyone deemed problematic, even for speaking up or attending a protest, so that they can no longer take part in society. As jobs vanish and the delisted grow in number, they use their invisibility to organise and fight back.
 
 ## Why "they'll keep us comfortable" isn't reassuring
 

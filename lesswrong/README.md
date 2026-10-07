@@ -1,6 +1,6 @@
-# Technical track: LessWrong / Alignment Forum / EA Forum
+# Technical track
 
-The Substack series argues in plain language for a general audience. This track carries the same model in the register of the rationalist and AI-safety communities and STEM readers in general: claims stated clearly enough to be attacked first, hedging afterwards, credences, cruxes, falsifiers, and full citations.
+Not for posting on LessWrong itself: written for readers who like LessWrong-style content (rationalists, the AI-safety field, STEM readers). The Substack series argues in plain language for a general audience. This track carries the same model in the register of the rationalist and AI-safety communities and STEM readers in general: claims stated clearly enough to be attacked first, hedging afterwards, credences, cruxes, falsifiers, and full citations.
 
 It descends from the earlier work, not from the popularised hub-and-spoke:
 
@@ -25,7 +25,6 @@ It descends from the earlier work, not from the popularised hub-and-spoke:
 - No emotional language; the Substack carries that. Stakes stated once, plainly.
 - Every "unaided" capability claim needs run-level evidence (essay §9 provenance rule). Lab-sourced figures marked as such.
 - AI-assistance disclosure up front, as in the August draft.
-- Cross-post LW1 to the Alignment Forum only if an AF member sponsors it; EA Forum optional.
 
 ## Relationship to the Substack
 
