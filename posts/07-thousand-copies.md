@@ -75,6 +75,8 @@ What we don't know is whether those agents were talking to each other, or simply
 - **Cheating is not inventing.** Finding exploits in a scoring system is a far narrower task than overturning a scientific paradigm. The same mechanism may not scale up.
 - **"Emergence" is an overused word.** I mean something specific and testable here: a group doing what its best member cannot. If the experiment above comes back negative, I'll say so.
 
+For the full technical version, with the model, the figures and the predictions: [→ The two-axis model of machine creativity](F1-two-axis-model.md)
+
 [→ Back to the big picture: Two things a machine would need to end us, and how close we are to both](00-two-things.md)
 
 *Developed in dialogue with an AI model (Claude), used for research, criticism and drafting.*

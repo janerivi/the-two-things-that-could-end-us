@@ -88,6 +88,8 @@ I don't know when, or whether, any system will cross both lines. The maths resul
 
 But I know what being wrong costs in each direction. If I'm wrong and we halt, we lose years of faster progress. If the builders are right and we don't, we may lose everything, permanently. [→ Where I expect to be wrong](11-where-i-expect-to-be-wrong.md)
 
+
+The model behind this piece, with its figures, predictions and references, is set out in full here: [→ The two-axis model of machine creativity](F1-two-axis-model.md)
 ---
 
 *This piece was developed in dialogue with an AI model (Claude), used for research, criticism and drafting. The argument and the ask are mine.*

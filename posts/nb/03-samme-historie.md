@@ -72,6 +72,8 @@ Det endrer hva vi bør holde øye med: automatiserte fabrikker, robotflåter, KI
 - **Maktforskyvningen alene kan være nok til å ødelegge oss.** Hvis den langsomme veien ender ille av seg selv, betyr fabrikkterskelen mindre enn jeg hevder, og problemet er nærmere enn det ser ut.
 - **En oppfinnsom KI trenger kanskje ikke sin egen industri.** Hvis den kunne manipulere mennesker til å bygge alt for all fremtid, er trinn tre unødvendig. Begge bøkene antyder noe annet, men det er en vurdering, ikke en måling.
 
+Den fulle tekniske versjonen, med modellen, figurene og prediksjonene: [→ Toaksemodellen for maskinkreativitet](F1-toaksemodellen.md)
+
 [→ Tilbake til det store bildet: To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge](00-to-ting.md)
 
 *Utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast.*

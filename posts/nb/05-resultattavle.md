@@ -97,6 +97,8 @@ Mønsteret over 30 år: hvert steg kom fra en annen type system, og KI har beveg
 
 Vurderingene er mitt skjønn, ikke målinger; denne siden er delvis en bønn om bedre måleinstrumenter. Flere tall kommer fra selskaper med egeninteresse i dem, og jeg har merket dem. Og en tavle som denne kan gå glipp av det viktigste rett og slett fordi ingen har rapportert det ennå.
 
+Den fulle tekniske versjonen, med modellen, figurene og prediksjonene: [→ Toaksemodellen for maskinkreativitet](F1-toaksemodellen.md)
+
 [→ Tilbake til det store bildet: To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge](00-to-ting.md)
 
 *Utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast.*

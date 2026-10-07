@@ -97,6 +97,8 @@ The pattern across 30 years: each step came from a different kind of system, and
 
 The verdicts are my judgement, not a measurement; this page is partly a request for better instruments. Several figures come from companies with an interest in them, and I have marked those. And a scorecard like this can miss the thing that matters most simply because nobody has reported it yet.
 
+For the full technical version, with the model, the figures and the predictions: [→ The two-axis model of machine creativity](F1-two-axis-model.md)
+
 [→ Back to the big picture: Two things a machine would need to end us, and how close we are to both](00-two-things.md)
 
 *Developed in dialogue with an AI model (Claude), used for research, criticism and drafting.*

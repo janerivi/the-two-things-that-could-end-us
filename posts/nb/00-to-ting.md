@@ -88,6 +88,8 @@ Jeg vet ikke når, eller om, noe system vil krysse begge grensene. Matematikkres
 
 Men jeg vet hva det koster å ta feil i hver retning. Tar jeg feil og vi stanser, taper vi noen år med raskere fremskritt. Har byggerne rett og vi ikke stanser, kan vi tape alt, for alltid. [→ Der jeg regner med å ta feil](11-der-jeg-tar-feil.md)
 
+
+Modellen bak denne teksten, med figurer, prediksjoner og referanser, er lagt fram i sin helhet her: [→ Toaksemodellen for maskinkreativitet](F1-toaksemodellen.md)
 ---
 
 *Denne teksten er utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast. Argumentet og kravet er mine.*

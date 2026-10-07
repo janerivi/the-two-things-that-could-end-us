@@ -75,6 +75,8 @@ Det vi ikke vet, er om de agentene snakket med hverandre, eller bare gjorde uavh
 - **Juks er ikke oppfinnelse.** Å finne smutthull i et vurderingssystem er en langt smalere oppgave enn å velte et vitenskapelig paradigme. Den samme mekanismen skalerer kanskje ikke.
 - **«Emergens» er et overbrukt ord.** Jeg mener noe konkret og testbart her: en gruppe som gjør det dens beste medlem ikke kan. Hvis eksperimentet over gir negativt svar, skal jeg si det.
 
+Den fulle tekniske versjonen, med modellen, figurene og prediksjonene: [→ Toaksemodellen for maskinkreativitet](F1-toaksemodellen.md)
+
 [→ Tilbake til det store bildet: To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge](00-to-ting.md)
 
 *Utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast.*

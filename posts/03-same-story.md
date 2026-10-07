@@ -72,6 +72,8 @@ That changes what we should watch: automated factories, robot fleets, AI-run sup
 - **Disempowerment may be enough to ruin us.** If the slow route ends badly on its own, the factory threshold matters less than I claim, and the problem is closer than it looks.
 - **An inventive AI might not need its own industry.** If it could manipulate humans into building everything indefinitely, step three is unnecessary. Both books suggest otherwise, but that is a judgement, not a measurement.
 
+For the full technical version, with the model, the figures and the predictions: [→ The two-axis model of machine creativity](F1-two-axis-model.md)
+
 [→ Back to the big picture: Two things a machine would need to end us, and how close we are to both](00-two-things.md)
 
 *Developed in dialogue with an AI model (Claude), used for research, criticism and drafting.*
