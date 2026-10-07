@@ -58,7 +58,7 @@ There is also a slower version of the same story. A group of researchers present
 
 Not necessarily. Extinction is the worst outcome, not the only bad one. The September report warns that a small lead in AI could turn into a decisive one, and "severely erode checks and balances" within and between states and companies [S5]. A world where a handful of people, or a handful of machines, control everything that matters is not one most of us would choose to live in, even if we are kept comfortable. The slow route above ends there too: people still alive, no longer needed, and no longer in charge [S17]. [JE: films FILM1, FILM2 as the human-scale picture of this] [→ Spoke 12: If we survive, do we get utopia?]
 
-## Why it takes both
+## Why it likely takes both
 
 Read the two most detailed public scenarios of how this could go wrong and you'll find the same order of events.
 
