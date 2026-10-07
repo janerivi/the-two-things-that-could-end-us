@@ -136,6 +136,12 @@ Four developments sharpen the model.
 
 **The aggregate point.** The numbered anchors are individual demonstrations. The models that produced them do far more besides, so the honest estimate for a current frontier model is broader than any one anchor: F on the map. It sits lower on depth than the single-field breakthroughs, because there is no robust evidence yet of frame-breaking *across* fields, only hints. That still puts it close to the boundary, with an uncertainty circle that crosses it.
 
+**Points are peaks, not systems.** Every anchor in Figure 3 is the best thing a system did, so it marks the tip of a much larger shape. A model can exceed top-human depth in a narrow domain and fall far below it as breadth grows. Figure 4 draws those shapes for four generations. EMI is a sliver. AlphaGo is a spike: top-human depth, one game wide. GPT-3.5 is the reverse, a low plateau across almost everything. The October 2026 frontier is different in kind: top-human in mathematics and physics, elite in security, and it stays deep much further right before falling away. The danger is not a single peak. It is the shoulder of that envelope reaching the boundary.
+
+![Figure 4](../figures/fig5-envelopes-2026-10.png)
+
+*Figure 4. Capability envelopes. Each shape is the deepest work a system can do at a given breadth: A, EMI; B, AlphaGo; C, GPT-3.5, the first ChatGPT; D, the October 2026 frontier (OpenAI's internal model plus the public GPT-6 Astra). H is von Neumann.*
+
 **One von Neumann, or a million.** The human reference point makes the danger concrete. One human has arguably worked at that depth across that many fields, and humanity coped: von Neumann was one mind, working at human speed, inside human institutions. An AI system that reached the same point would not be one mind. It could be copied millions of times and run faster than any person, which is what Dario Amodei, Anthropic's chief executive, has called "a country of geniuses in a datacenter" ([*Machines of Loving Grace*](https://www.darioamodei.com/essay/machines-of-loving-grace), 2024). He meant it as a promise. On this map it is the description of the corner.
 
 The spread spans hand-built pattern analysis, self-play RL, transformers, LLM-plus-evaluator loops and agentic swarms. Whatever the remaining barrier is made of, it has not been architecture-specific, which is the main reason not to expect the last region to hold on architectural grounds alone.
@@ -150,9 +156,9 @@ Three failures become available at different points on the map:
 | **Recursive self-improvement (RSI)** | AI research: architectures, training, objectives, evaluation, infrastructure | revise what a mind-building approach even is |
 | **Autonomous industry** | engineering, materials, control, logistics, manufacturing | restructure variables under physical consequence |
 
-![Figure 4](../figures/fig2-failure-regions.png)
+![Figure 5](../figures/fig2-failure-regions.png)
 
-*Figure 4. Where each failure becomes available. Circles are uncertainty around a point estimate, not thresholds, and they overlap because the three are not confidently separable. If recursive self-improvement arrives, it drags all three up and to the right.*
+*Figure 5. Where each failure becomes available. Circles are uncertainty around a point estimate, not thresholds, and they overlap because the three are not confidently separable. If recursive self-improvement arrives, it drags all three up and to the right.*
 
 These map onto the series' two **minimum required core lethalities**: (1) autonomous paradigmatic invention and discovery, reached either directly or via RSI, and (2) an **industrial singularity**, autonomous end-to-end industry from mining and energy through manufacture with no human in the loop. Lethality 1 supplies the means; lethality 2 removes the dependence that currently keeps humans necessary. That dependence is also the mechanism in Kulveit et al.'s *Gradual Disempowerment* (ICML 2025): societal systems stay aligned with human interests largely because they need human participation.
 

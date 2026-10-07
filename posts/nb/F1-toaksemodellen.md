@@ -136,6 +136,12 @@ Fire utviklinger skjerper modellen.
 
 **Det samlede punktet.** De nummererte ankerpunktene er enkeltdemonstrasjoner. Modellene som laget dem, gjør langt mer i tillegg, så det ærlige estimatet for en nåværende frontmodell er bredere enn noe enkelt ankerpunkt: F på kartet. Det ligger lavere på dybde enn gjennombruddene i enkeltfelt, fordi det ennå ikke finnes robuste bevis for rammebrudd *på tvers av* felt, bare antydninger. Det plasserer det likevel nær grensen, med en usikkerhetssirkel som krysser den.
 
+**Punkter er topper, ikke systemer.** Hvert ankerpunkt i figur 3 er det beste et system har gjort, så det markerer toppen av en mye større form. En modell kan overgå menneskelig toppnivå i et smalt domene og falle langt under det når bredden øker. Figur 4 tegner disse formene for fire generasjoner. EMI er en flis. AlphaGo er en pigg: menneskelig toppnivå, ett spill bred. GPT-3.5 er det motsatte, et lavt platå over nesten alt. Fronten i oktober 2026 er av et annet slag: toppnivå i matematikk og fysikk, elite i sikkerhet, og den holder seg dyp mye lenger mot høyre før den faller av. Faren er ikke én enkelt topp. Den er at skulderen på konvolutten når grensen.
+
+![Figur 4](../../figures/fig5-envelopes-2026-10-nb.png)
+
+*Figur 4. Kapabilitetskonvolutter. Hver form er det dypeste et system kan gjøre ved en gitt bredde: A, EMI; B, AlphaGo; C, GPT-3.5, den første ChatGPT; D, fronten i oktober 2026 (OpenAIs interne modell pluss den offentlige GPT-6 Astra). H er von Neumann.*
+
 **Én von Neumann, eller en million.** Det menneskelige referansepunktet gjør faren konkret. Ett menneske har trolig arbeidet på den dybden i så mange felt, og menneskeheten taklet det: von Neumann var ett sinn, som arbeidet i menneskelig tempo, innenfor menneskelige institusjoner. Et KI-system som nådde samme punkt, ville ikke vært ett sinn. Det kunne kopieres millioner av ganger og kjøre raskere enn noe menneske, det Anthropics toppsjef Dario Amodei har kalt «et land av genier i et datasenter» ([*Machines of Loving Grace*](https://www.darioamodei.com/essay/machines-of-loving-grace), 2024). Han mente det som et løfte. På dette kartet er det beskrivelsen av hjørnet.
 
 Spennet dekker håndbygd mønsteranalyse, selvspill-RL, transformere, sløyfer av språkmodell pluss evaluator og agentsvermer. Hva enn den gjenværende barrieren består av, har den ikke vært knyttet til én arkitektur, og det er hovedgrunnen til ikke å forvente at det siste området vil holde av arkitektoniske grunner alene.
@@ -150,9 +156,9 @@ Tre sviktformer blir mulige på ulike steder i kartet:
 | **Rekursiv selvforbedring (RSI)** | KI-forskning: arkitekturer, trening, mål, evaluering, infrastruktur | revidere hva en tilnærming til å bygge sinn i det hele tatt er |
 | **Autonom industri** | ingeniørfag, materialer, styring, logistikk, produksjon | omstrukturere variabler under fysiske konsekvenser |
 
-![Figur 4](../../figures/fig2-failure-regions-nb.png)
+![Figur 5](../../figures/fig2-failure-regions-nb.png)
 
-*Figur 4. Hvor hver svikt blir mulig. Sirklene er usikkerhet rundt et punktestimat, ikke terskler, og de overlapper fordi de tre ikke kan skilles sikkert fra hverandre. Kommer rekursiv selvforbedring, drar den alle tre opp og mot høyre.*
+*Figur 5. Hvor hver svikt blir mulig. Sirklene er usikkerhet rundt et punktestimat, ikke terskler, og de overlapper fordi de tre ikke kan skilles sikkert fra hverandre. Kommer rekursiv selvforbedring, drar den alle tre opp og mot høyre.*
 
 Disse svarer til seriens to **minste nødvendige kjernedødeligheter**: (1) autonom paradigmatisk oppfinnelse og oppdagelse, nådd enten direkte eller via RSI, og (2) en **industriell singularitet**, autonom industri fra ende til ende, fra gruvedrift og energi til produksjon, uten et menneske involvert. Dødelighet 1 gir midlene; dødelighet 2 fjerner avhengigheten som i dag gjør mennesker nødvendige. Den avhengigheten er også mekanismen i *Gradual Disempowerment* av Kulveit mfl. (ICML 2025): samfunnssystemer holder seg i tråd med menneskers interesser i stor grad fordi de trenger menneskelig deltakelse.
 
