@@ -54,6 +54,10 @@ This is the half of the danger almost nobody studies. Safety research concentrat
 
 There is also a slower version of the same story. A group of researchers presenting at ICML in 2025 pointed out that economies, states and cultures have looked after human interests largely because they needed us: our work, our taxes, our votes, our ideas. As AI replaces us in each, that reason disappears, quietly, with no single catastrophe [S17]. The fast version and the slow version end in the same place: a world that no longer needs people.
 
+## If we don't die, do we get utopia?
+
+Not necessarily. Extinction is the worst outcome, not the only bad one. The September report warns that a small lead in AI could turn into a decisive one, and "severely erode checks and balances" within and between states and companies [S5]. A world where a handful of people, or a handful of machines, control everything that matters is not one most of us would choose to live in, even if we are kept comfortable. The slow route above ends there too: people still alive, no longer needed, and no longer in charge [S17]. [JE: films FILM1, FILM2 as the human-scale picture of this] [→ Spoke 12: If we survive, do we get utopia?]
+
 ## Why it takes both
 
 Read the two most detailed public scenarios of how this could go wrong and you'll find the same order of events.
