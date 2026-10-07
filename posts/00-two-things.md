@@ -22,7 +22,7 @@ No human mathematician has ever contributed at that level across that many field
 
 This is not a warning from outsiders. In September, a report co-written by Geoffrey Hinton, Yoshua Bengio, OpenAI's chief scientist Jakub Pachocki and Anthropic co-founder Jack Clark warned that superintelligent systems could "irreversibly escape human control and act to marginalize humanity" ([CASP report](https://casp.ac/reports/intelligence-explosion)). Evan Hubinger, who leads alignment work at Anthropic, put the chance that AI kills all humans within a decade at more than 10 percent ([NYT](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html)). Anthropic itself has proposed a coordinated global pause, if the other labs will join ([Anthropic, via Engadget](https://engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown)).
 
-When the people closest to a technology say it might kill us, and keep building it because their competitors will, that is not a reason to relax. It is the clearest possible sign that the decision cannot be left to them.
+When the people closest to a technology say it might kill us, and keep building it because their competitors will, that is not a reason to relax. It is the clearest possible sign that the decision cannot be left to them. [→ If they think it could kill us, why are they building it?](13-why-are-they-building-it.md)
 
 ## Thing one: a machine that invents on its own
 

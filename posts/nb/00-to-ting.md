@@ -22,7 +22,7 @@ Ingen menneskelig matematiker har noen gang bidratt på det nivået i så mange 
 
 Dette er ikke en advarsel utenfra. I september advarte en rapport skrevet av blant andre Geoffrey Hinton, Yoshua Bengio, OpenAIs forskningssjef Jakub Pachocki og Anthropic-medgründer Jack Clark om at superintelligente systemer kan «ugjenkallelig unnslippe menneskelig kontroll og marginalisere menneskeheten» ([CASP-rapporten](https://casp.ac/reports/intelligence-explosion)). Evan Hubinger, som leder arbeidet med å gjøre KI trygg hos Anthropic, anslo sjansen for at KI dreper alle mennesker innen ti år til over 10 prosent ([NYT](https://www.nytimes.com/2026/09/20/opinion/ai-ban-self-improvement-recursive-models.html)). Anthropic har selv foreslått en koordinert global pause, dersom de andre laboratoriene blir med ([Anthropic, via Engadget](https://engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown)).
 
-Når de som står teknologien nærmest sier at den kan drepe oss, og fortsetter å bygge den fordi konkurrentene gjør det, er det ingen grunn til å slappe av. Det er det tydeligste tegnet man kan få på at beslutningen ikke kan overlates til dem.
+Når de som står teknologien nærmest sier at den kan drepe oss, og fortsetter å bygge den fordi konkurrentene gjør det, er det ingen grunn til å slappe av. Det er det tydeligste tegnet man kan få på at beslutningen ikke kan overlates til dem. [→ Hvis de tror det kan drepe oss, hvorfor bygger de det?](13-hvorfor-bygger-de-det.md)
 
 ## Ting nummer én: en maskin som finner opp på egen hånd
 
