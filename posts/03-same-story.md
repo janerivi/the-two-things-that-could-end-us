@@ -10,7 +10,7 @@ hub: 00-two-things.md
 
 The two most widely read accounts of how AI could end humanity look very different. One is a month-by-month forecast written by former lab researchers. The other is a blunt book by two of the field's oldest worriers. Read them side by side and they share a skeleton, and the part of that skeleton nobody talks about is the factories.
 
-**The big picture, in three sentences.** I argue that a machine would need two things to end us: the ability to invent new science on its own, and the ability to run the world's industry, from mine to factory, without any human in the loop. The first is arriving faster than almost anyone expected. The second is barely studied. [→ The full case: *Two things a machine would need to end us*]
+**The big picture, in three sentences.** I argue that a machine would need two things to end us: the ability to invent new science on its own, and the ability to run the world's industry, from mine to factory, without any human in the loop. The first is arriving faster than almost anyone expected. The second is barely studied. [→ The full case: [Two things a machine would need to end us](00-two-things.md)]
 
 ## Story one: AI 2027
 
@@ -64,7 +64,7 @@ All three reasons are getting weaker.
 
 If the two-step picture is right, the moment to worry about is not only when AI becomes superhumanly clever. It is when inventive AI and self-running industry meet. We may be close to the first. Nobody is tracking how close we are to the second.
 
-That changes what we should watch: automated factories, robot fleets, AI-run supply chains and labs, and above all any system that both designs and builds without a person in the loop. It also changes what we should do. Once machines can run the physical world without us, the lever we would most need is gone. That is why I think the only safe move is to stop developing ever more capable general-purpose AI now, while both halves are incomplete. [→ *Why a ban, not a speed limit*]
+That changes what we should watch: automated factories, robot fleets, AI-run supply chains and labs, and above all any system that both designs and builds without a person in the loop. It also changes what we should do. Once machines can run the physical world without us, the lever we would most need is gone. That is why I think the only safe move is to stop developing ever more capable general-purpose AI now, while both halves are incomplete. [→ Why a ban, not a speed limit](09-ban-not-speed-limit.md)
 
 ## How this could be wrong
 
@@ -73,6 +73,6 @@ That changes what we should watch: automated factories, robot fleets, AI-run sup
 - **Disempowerment may be enough to ruin us.** If the slow route ends badly on its own, the factory threshold matters less than I claim, and the problem is closer than it looks.
 - **An inventive AI might not need its own industry.** If it could manipulate humans into building everything indefinitely, step three is unnecessary. Both books suggest otherwise, but that is a judgement, not a measurement.
 
-[→ Back to the big picture: *Two things a machine would need to end us, and how close we are to both*]
+[→ Back to the big picture: Two things a machine would need to end us, and how close we are to both](00-two-things.md)
 
 *Developed in dialogue with an AI model (Claude), used for research, criticism and drafting.* [JE: rewrite]

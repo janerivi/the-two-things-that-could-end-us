@@ -10,7 +10,7 @@ hub: 00-to-ting.md
 
 De to mest leste beskrivelsene av hvordan KI kan gjøre ende på menneskeheten, ser svært forskjellige ut. Den ene er en prognose måned for måned, skrevet av tidligere laboratorieforskere. Den andre er en direkte bok av to av feltets mest erfarne bekymrede stemmer. Les dem side om side, og de har samme skjelett. Og den delen av skjelettet ingen snakker om, er fabrikkene.
 
-**Det store bildet, i tre setninger.** Jeg argumenterer for at en maskin måtte klare to ting for å gjøre ende på oss: å finne opp ny vitenskap på egen hånd, og å drive verdens industri, fra gruve til fabrikk, uten et eneste menneske involvert. Det første kommer raskere enn nesten noen ventet. Det andre er knapt studert. [→ Hele argumentet: *To ting en maskin måtte klare for å gjøre ende på oss*]
+**Det store bildet, i tre setninger.** Jeg argumenterer for at en maskin måtte klare to ting for å gjøre ende på oss: å finne opp ny vitenskap på egen hånd, og å drive verdens industri, fra gruve til fabrikk, uten et eneste menneske involvert. Det første kommer raskere enn nesten noen ventet. Det andre er knapt studert. [→ Hele argumentet: [To ting en maskin måtte klare for å gjøre ende på oss](00-to-ting.md)]
 
 ## Historie én: AI 2027
 
@@ -64,7 +64,7 @@ Alle tre grunnene blir svakere.
 
 Hvis totrinnsbildet stemmer, er det ikke bare øyeblikket KI blir overmenneskelig smart vi bør bekymre oss for. Det er når oppfinnsom KI og selvgående industri møtes. Vi kan være nær det første. Ingen følger med på hvor nær vi er det andre.
 
-Det endrer hva vi bør holde øye med: automatiserte fabrikker, robotflåter, KI-drevne forsyningskjeder og laboratorier, og fremfor alt ethvert system som både designer og bygger uten et menneske involvert. Det endrer også hva vi bør gjøre. Når maskiner kan drive den fysiske verden uten oss, er spaken vi mest ville trengt, borte. Derfor mener jeg at det eneste trygge er å stanse utviklingen av stadig kraftigere generell KI nå, mens begge halvdelene er ufullstendige. [→ *Hvorfor forbud, ikke fartsgrense*]
+Det endrer hva vi bør holde øye med: automatiserte fabrikker, robotflåter, KI-drevne forsyningskjeder og laboratorier, og fremfor alt ethvert system som både designer og bygger uten et menneske involvert. Det endrer også hva vi bør gjøre. Når maskiner kan drive den fysiske verden uten oss, er spaken vi mest ville trengt, borte. Derfor mener jeg at det eneste trygge er å stanse utviklingen av stadig kraftigere generell KI nå, mens begge halvdelene er ufullstendige. [→ Hvorfor forbud, ikke fartsgrense](09-forbud-ikke-fartsgrense.md)
 
 ## Hvordan dette kan være feil
 
@@ -73,6 +73,6 @@ Det endrer hva vi bør holde øye med: automatiserte fabrikker, robotflåter, KI
 - **Maktforskyvningen alene kan være nok til å ødelegge oss.** Hvis den langsomme veien ender ille av seg selv, betyr fabrikkterskelen mindre enn jeg hevder, og problemet er nærmere enn det ser ut.
 - **En oppfinnsom KI trenger kanskje ikke sin egen industri.** Hvis den kunne manipulere mennesker til å bygge alt for all fremtid, er trinn tre unødvendig. Begge bøkene antyder noe annet, men det er en vurdering, ikke en måling.
 
-[→ Tilbake til det store bildet: *To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge*]
+[→ Tilbake til det store bildet: To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge](00-to-ting.md)
 
 *Utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast.* [JE: skriv om]

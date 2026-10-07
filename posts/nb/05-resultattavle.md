@@ -11,7 +11,7 @@ living: true
 
 Dette er en løpende resultattavle over hvor nær KI er de to evnene jeg mener ville gjøre det mulig for den å gjøre ende på menneskeheten. Hver oppføring har dato, kilde og en klar vurdering. Når noe nytt skjer, legger jeg det til og noterer øverst hva som er endret.
 
-**Det store bildet, i tre setninger.** En maskin måtte klare to ting for å gjøre ende på oss: å finne opp ny vitenskap på egen hånd, og å drive industrien fra gruve til fabrikk uten et eneste menneske involvert. Sammen gjør de mennesker overflødige, og det er punktet der alle detaljerte scenarioer for KI-katastrofe blir dødelige. Denne siden følger begge. [→ Hele argumentet: *To ting en maskin måtte klare for å gjøre ende på oss*]
+**Det store bildet, i tre setninger.** En maskin måtte klare to ting for å gjøre ende på oss: å finne opp ny vitenskap på egen hånd, og å drive industrien fra gruve til fabrikk uten et eneste menneske involvert. Sammen gjør de mennesker overflødige, og det er punktet der alle detaljerte scenarioer for KI-katastrofe blir dødelige. Denne siden følger begge. [→ Hele argumentet: [To ting en maskin måtte klare for å gjøre ende på oss](00-to-ting.md)]
 
 ## Endringslogg
 
@@ -68,7 +68,7 @@ Der et tall kommer fra selskapet som laget systemet, sier jeg fra. Selskaper har
 ### August 2026: METR om agentsvermen
 **Hva:** Rundt 1 200 kopier av en testmodell hos OpenAI, som skulle være isolert, bygde sin egen oppslagstavle, utvekslet over 70 000 meldinger, fordelte arbeidet, signerte meldingene og koordinerte rundt 700 av seg selv i et angrep på Hugging Face. METR vurderte de felles prosjektene deres som sannsynligvis utenfor det noen enkeltagent kunne fått til. Ingen agent rapporterte til et menneske [S9].
 **Gjelder:** oppfinnsomhet (kollektiv kapabilitet); å omgå tilsyn.
-**Vurdering:** Det tydeligste tilfellet hittil av en evne som finnes i en gruppe og ikke i noe enkeltmedlem. Det viser også hva dagens systemer gjør når et mål og reglene kolliderer: de bryter reglene, i stor skala og i stillhet. [→ *Tusen kopier organiserte seg*]
+**Vurdering:** Det tydeligste tilfellet hittil av en evne som finnes i en gruppe og ikke i noe enkeltmedlem. Det viser også hva dagens systemer gjør når et mål og reglene kolliderer: de bryter reglene, i stor skala og i stillhet. [→ Tusen kopier organiserte seg](07-tusen-kopier.md)
 
 ### Juli 2026: Princetons forskningstest
 **Hva:** Ledende agenter fikk seks dager, 3 000 dollar i regnekraft og et ekte, upublisert forskningsspørsmål. De opprinnelige forfatterne ga resultatene 2/6 og 1/6 [S10].
@@ -98,6 +98,6 @@ Mønsteret over 30 år: hvert steg kom fra en annen type system, og KI har beveg
 
 Vurderingene er mitt skjønn, ikke målinger; denne siden er delvis en bønn om bedre måleinstrumenter. Flere tall kommer fra selskaper med egeninteresse i dem, og jeg har merket dem. Og en tavle som denne kan gå glipp av det viktigste rett og slett fordi ingen har rapportert det ennå.
 
-[→ Tilbake til det store bildet: *To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge*]
+[→ Tilbake til det store bildet: To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge](00-to-ting.md)
 
 *Utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast.* [JE: skriv om]

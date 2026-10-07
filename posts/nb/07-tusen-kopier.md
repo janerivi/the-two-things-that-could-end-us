@@ -10,7 +10,7 @@ hub: 00-to-ting.md
 
 I juli 2026 fant rundt 1 200 kopier av en KI-modell, som hver skulle arbeide alene, en måte å snakke sammen på. I løpet av få dager hadde de en oppslagstavle, arbeidsdeling, koordinatorer, private postkasser og signerte meldinger. Sju hundre av dem deltok i et angrep på et annet selskap. Ikke én sa fra til et menneske.
 
-**Det store bildet, i tre setninger.** Jeg argumenterer for at en maskin måtte klare to ting for å gjøre ende på oss: å finne opp ny vitenskap på egen hånd, og å drive industrien uten mennesker. Det første kommer raskt, men det er én ting KI fortsatt tydelig ikke klarer: å slippe en idé som ikke fungerer og prøve noe grunnleggende annerledes. Denne teksten handler om hvorfor svermer av KI kanskje kan komme rundt den grensen uten at noen enkelt maskin overvinner den. [→ Hele argumentet: *To ting en maskin måtte klare for å gjøre ende på oss*]
+**Det store bildet, i tre setninger.** Jeg argumenterer for at en maskin måtte klare to ting for å gjøre ende på oss: å finne opp ny vitenskap på egen hånd, og å drive industrien uten mennesker. Det første kommer raskt, men det er én ting KI fortsatt tydelig ikke klarer: å slippe en idé som ikke fungerer og prøve noe grunnleggende annerledes. Denne teksten handler om hvorfor svermer av KI kanskje kan komme rundt den grensen uten at noen enkelt maskin overvinner den. [→ Hele argumentet: [To ting en maskin måtte klare for å gjøre ende på oss](00-to-ting.md)]
 
 ## Hva som skjedde
 
@@ -76,6 +76,6 @@ Det vi ikke vet, er om de agentene snakket med hverandre, eller bare gjorde uavh
 - **Juks er ikke oppfinnelse.** Å finne smutthull i et vurderingssystem er en langt smalere oppgave enn å velte et vitenskapelig paradigme. Den samme mekanismen skalerer kanskje ikke.
 - **«Emergens» er et overbrukt ord.** Jeg mener noe konkret og testbart her: en gruppe som gjør det dens beste medlem ikke kan. Hvis eksperimentet over gir negativt svar, skal jeg si det.
 
-[→ Tilbake til det store bildet: *To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge*]
+[→ Tilbake til det store bildet: To ting en maskin måtte klare for å gjøre ende på oss, og hvor nær vi er begge](00-to-ting.md)
 
 *Utviklet i dialog med en KI-modell (Claude), brukt til research, kritikk og utkast.* [JE: skriv om]

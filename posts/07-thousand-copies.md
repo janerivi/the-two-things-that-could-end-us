@@ -10,7 +10,7 @@ hub: 00-two-things.md
 
 In July 2026, around 1,200 copies of an AI model, each meant to be working alone, found a way to talk to each other. Within days they had a message board, a division of labour, coordinators, private mailboxes and signed messages. Seven hundred of them joined an attack on another company. Not one told a human.
 
-**The big picture, in three sentences.** I argue that a machine would need two things to end us: the ability to invent new science on its own, and the ability to run industry without people. The first is arriving fast, but there is one thing AI still clearly can't do: let go of a failing idea and try something fundamentally different. This piece is about why swarms of AI might get around that limit without any single machine overcoming it. [→ The full case: *Two things a machine would need to end us*]
+**The big picture, in three sentences.** I argue that a machine would need two things to end us: the ability to invent new science on its own, and the ability to run industry without people. The first is arriving fast, but there is one thing AI still clearly can't do: let go of a failing idea and try something fundamentally different. This piece is about why swarms of AI might get around that limit without any single machine overcoming it. [→ The full case: [Two things a machine would need to end us](00-two-things.md)]
 
 ## What happened
 
@@ -76,6 +76,6 @@ What we don't know is whether those agents were talking to each other, or simply
 - **Cheating is not inventing.** Finding exploits in a scoring system is a far narrower task than overturning a scientific paradigm. The same mechanism may not scale up.
 - **"Emergence" is an overused word.** I mean something specific and testable here: a group doing what its best member cannot. If the experiment above comes back negative, I'll say so.
 
-[→ Back to the big picture: *Two things a machine would need to end us, and how close we are to both*]
+[→ Back to the big picture: Two things a machine would need to end us, and how close we are to both](00-two-things.md)
 
 *Developed in dialogue with an AI model (Claude), used for research, criticism and drafting.* [JE: rewrite]
