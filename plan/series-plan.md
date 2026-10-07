@@ -44,6 +44,15 @@ Frame: own hook → three-sentence big-picture recap linking the hub → one cla
 | 10 | An experiment that would tell us if it's ever safe to resume | 9 | Essay §12 |
 | 11 | Where I expect to be wrong | 10 | Essay §7, §11; BVSR, Wiggins, Jaeger |
 
+## Third tier: foundations (JE, 2026-10-07)
+
+Spokes can link one level deeper to long-form foundation pieces for readers who want the full argument. Not written for sharing; written to be cited.
+
+- **F1 — The two-axis model in full** (under spoke 1): reach × depth, the four regions, the radial danger gradient, the anchors plotted, relevance realization as the mechanism, Kuhn/Boden/Wiggins, the closure/anomaly argument. Source: the 8 Sept essay §1–5, §9–11, updated with the Oct 2026 anchors. Largely exists already.
+- **F2 — The held-out-breakthrough experiment** (under spoke 10): essay §12.
+- Spoke 1 itself presents the model accessibly: the chart, the two questions people confuse, where the skull sits, and why "is AI creative yet?" has two answers.
+- The hub gets one paragraph + the chart, linking to spoke 1.
+
 ## Release
 
 - Launch: hub + spokes 3, 5 and 7 (the three most shareable). Unpublished links read "coming [date]". Then one spoke a week.

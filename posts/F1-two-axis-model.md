@@ -1,0 +1,192 @@
+---
+title: "The two-axis model of machine creativity: reach, depth, and where defence by anticipation fails"
+subtitle: "The full framework behind the series, with its mechanism, its predictions and their status as of October 2026, and the research fields it borrows from."
+status: DRAFT v0.1 — foundation piece, drafted by Sagan from Jan-Erik's 8 Sept 2026 essay plus October updates, for JE to rewrite
+tier: foundation (F1), under spoke 1
+hub: 00-two-things.md
+register: academic; jargon permitted; every term defined on first use
+---
+
+# The two-axis model of machine creativity
+
+*Reach, depth, and where defence by anticipation fails*
+
+This is the foundation piece for the series [*Two things a machine would need to end us*]. The hub and spokes argue in plain language. This piece sets out the model they rest on, with the mechanism, the literature and the predictions, for readers who want to check the argument rather than take it on trust. It is a revision of an essay I first drafted in August and September 2026, updated with what has happened since.
+
+## Summary
+
+Most defences that permit an AI system to be deployed work by anticipation: model the space of things the system might do, then prepare for the dangerous parts. Optimisation power makes an adversary strong. What makes an adversary *un-modellable* is creativity of a specific kind: not the generation of novelty, which is cheap, but the revision of what counts as relevant.
+
+I describe machine creativity on two continuous axes. **Reach** runs from narrow to general: how many domains a capability spans. **Depth** runs from limited to paradigmatic: whether a system searches within a fixed relevance function, or revises that function in response to signal it did not author. The far corner, **paradigmatic general creativity (PGC)**, is where defence by anticipation stops working. I propose relevance realization as the mechanism for the depth axis, derive five predictions, and add three more in light of 2026 evidence. The October 2026 picture: reach is advancing fast and is now superhuman in mathematics; depth is advancing inside verifier-rich domains; the clearest remaining gap is *frame abandonment under negative evidence* in single agents, and there are early signs that agent collectives may close it.
+
+## 1. Two axes
+
+The vocabulary comes from Thomas Kuhn. *The Structure of Scientific Revolutions* (1962) distinguishes **normal science**, puzzle-solving within an accepted framework of assumptions, methods and standards of what counts as a real problem, from **revolutionary science**, where the framework itself is replaced. Kuhn's further claim, that the two are not fully commensurable because post-revolution concepts cannot be stated in pre-revolution terms, is what makes the distinction matter for defence rather than only for history.
+
+**Axis 1: Reach.** Narrow to general: the number of domains a capability spans. AlphaZero sits far along depth within board games and barely moves on reach. A base language model is the reverse.
+
+**Axis 2: Depth.** Limited to paradigmatic. The definitions that do the work:
+
+> **Limited creativity:** search under a fixed relevance function.
+>
+> **Paradigmatic creativity:** revision of the relevance function by signal the system did not author.
+
+Both axes are continuous and have no ceiling. Four regions follow: limited-narrow (LNC), paradigmatic-narrow (PNC), limited-general (LGC) and **paradigmatic-general (PGC)**. They are regions on a gradient, not bins. I suspect most arguments about whether AI is "creative yet" are two people pointing at different regions without noticing: one at reach, the other at depth.
+
+*[Figure 1: Reach on the horizontal, depth on the vertical. Radial gradient from the top-right corner, marked with a skull and labelled "boundary of AI creativity sufficient for extinction". No bins, only distance from the corner.]*
+
+**"General" does not have to mean fully general.** The danger band curves down and left well before the corner. It needs only enough reach to cover the relevant surface, and software already touches nearly every real-world domain, so reach can arrive through one field rather than many.
+
+**This is a phase transition, not a bright line.** Margaret Boden's *The Creative Mind* (1990) distinguished combinational, exploratory (search within a conceptual space defined by rules) and transformational (altering the rules) creativity. The depth axis is essentially her exploratory/transformational distinction. Geraint Wiggins (*Knowledge-Based Systems* 19(7), 2006), formalising Boden, showed that transformational creativity is exploratory creativity at the meta-level: changing the rules is itself search in a larger space. So "paradigmatic" is relative to a level of description, and the steepness of the transition has to be argued for. §6 gives the mechanism: each ontology revision invalidates the defenders' pruning *wholesale* rather than incrementally, which produces a sharp knee in a continuous curve.
+
+## 2. Relevance realization: the mechanism for depth
+
+Daniel Dennett's statement of the **frame problem** ("Cognitive Wheels", 1984) is that any agent must zero in on what matters while ignoring an effectively infinite remainder, and cannot do it by checking everything. John Vervaeke's **relevance realization** framework (Vervaeke, Lillicrap & Richards, *Journal of Logic and Computation*, 2012) treats this as cognition's central problem and proposes that it is solved not by an algorithm but by **opponent processing**: continuously retuned trade-offs between efficiency and resiliency, exploration and exploitation, compression and particularisation. Andersen, Miller & Vervaeke (*Phenomenology and the Cognitive Sciences* 24, 2025) argue this converges with precision-weighting in predictive processing: two vocabularies, one process.
+
+It earns its place by doing three jobs.
+
+**It repairs the variation-and-selection account.** Dean Keith Simonton's blind-variation-and-selective-retention theory (BVSR) holds that creativity at every scale is undirected variation followed by selection. Its weak joint, pressed by Liane Gabora, is that variation does not look blind: generating one idea reshapes the criteria for the next. Relevance realization is a mechanism for exactly that, a salience landscape restructuring as search proceeds.
+
+**It explains the celebrated cases.** AlphaGo's move 37 was not an escape from a distribution. It was a policy network pruning a branching factor of about 250 to a handful of candidates, and a value network truncating depth: an intractable space made tractable by a *learned relevance function*. FunSearch and AlphaEvolve have the same shape: the language model is the proposal distribution over program space, the evaluator does selection.
+
+**It reclassifies apparently negative evidence as measurement.** Yue et al. (arXiv:2504.13837) found that reinforcement learning from verifiable rewards raises pass@1 while *lowering* pass@k: the trained model's reasoning paths already existed in the base model's sampling distribution. That is what sharpening a salience landscape over a fixed representation looks like. Likewise the collective diversity collapse found by Doshi & Hauser (*Science Advances* 10(28), 2024) and the rapid idea exhaustion reported by Si, Yang & Hashimoto (2024) are the expected signature of a strong, conservative, **inherited** relevance prior.
+
+**The serious objection.** Jaeger, Riedl, Djedovic, Vervaeke & Walsh (*Frontiers in Psychology* 15, 2024) argue relevance realization "cannot be an algorithmic process itself", explicitly including machine learning. Their negative argument is a regress: framing relevance as optimisation requires delimiting a search space, which is a relevance problem one level up. My answer is that the regress terminates *empirically*. Nobody derives a framing from first principles; deep learning absorbs it from data, which is arguably why connectionism succeeded where symbolic AI, which tried to *write* the relevance function, failed. On their positive argument from autopoiesis, the founders' own method cuts against the strong reading: Varela, Maturana & Uribe (1974) presented the theory with a computer simulation, and McMullin (*Artificial Life* 10(3), 2004) traces thirty years of computational autopoiesis.
+
+What current systems have is **derived** relevance realization: a salience landscape inherited from a corpus. That is not disqualifying, since children inherit most of theirs from culture. It means the interesting question is where *non-inherited* relevance could come from.
+
+## 3. Data provenance is not the relevance criterion
+
+Removing humans from the data does not remove humans from the relevance criterion. AlphaZero has win/loss; AlphaFold has RMSD against measured structures; GNoME has formation energy; weather models have forecast skill. Every celebrated non-human-data result has a **pre-stated criterion**. Self-supervised objectives are not exempt: masked prediction *is* a relevance specification.
+
+There are three exits from the regress, and any proposal should say which it bets on:
+
+1. **A human-written objective.** What we have now; spectacular inside the ontology it specifies.
+2. **Physical consequence.** The world grades the agent; relevance is set by what actually affects it.
+3. **Content-agnostic intrinsic motivation.** Schmidhuber's compression progress, Oudeyer & Kaplan's learning progress, Lehman & Stanley's novelty search, and the novelty-plus-learnability definition of open-endedness in Hughes et al. (ICML 2024). Human-written but not human-content-laden, computational, and running at silicon speed.
+
+## 4. Anomaly and closure
+
+The obvious version of the key distinction, that simulation is closed and embodiment open, is wrong: the brain is a world simulator, and Conant & Ashby (1970) make a model close to definitional for any good regulator. The correct version:
+
+> **What matters is whether the model can be corrected by something it did not represent.**
+
+The brain's simulator is disciplined by prediction error from an arena it did not author. A self-authored simulator inverts this: **variables the agent omitted generate no error signal**. The loop closes: the relevance function defines the simulation, the simulation grades the outputs, and missed relevance cannot appear as a discrepancy. This is model collapse (Shumailov et al., *Nature* 631, 2024) one level up: recursive training contracts the distribution; recursive self-simulation contracts the ontology. Kuhnian revolutions are anomaly-driven (Mercury's perihelion, black-body radiation, Michelson–Morley). A fully self-simulating agent has abolished anomaly by construction.
+
+**Mathematics is the exception.** Axioms are self-authored, yet mathematics produces genuine anomaly: counterexamples, independence results, consequences that force reframing. You choose the axioms and then lose control of what follows. That explains why the strongest early machine PNC cases (AlphaTensor, FunSearch, AlphaGeometry) and the 2026 results are mathematical, and it reframes the verifiability question. The question is not *is there a verifier*, but **does the frame generate consequences the framer cannot control?** Stuart Kauffman's argument that the biosphere's adjacent possible cannot be pre-stated (Gould & Vrba's exaptation being the canonical case) is the general statement of why open domains resist verifiers.
+
+## 5. The architecture to watch, and correction channels
+
+The closure problem dissolves when the simulator is a subsystem of something grounded, an architecture with a 35-year lineage: Dyna (Sutton, 1991), World Models (Ha & Schmidhuber, 2018), MuZero (Schrittwieser et al., *Nature*, 2020), DreamerV3 (Hafner et al., *Nature*, 2025). What would be new at frontier scale is an **ontologically open** simulator, one that authors its own state variables, combined with broad correction channels.
+
+**Correction channels are not interchangeable.** *Passive retrieval of human material* pulls the ontology toward human-paradigm relevance: high bandwidth, frame-preserving. *Passive retrieval of machine-authored material* is worse than it looks, because frontier systems are **correlated** authors: many correlated authors approximate one, which is model collapse at ecosystem level. *An agent reading what it wrote* is closure that passes an audit. *Acting and observing the response* is genuine unauthored correction at digital speed. *Physical sensing* is ontologically open but runs at physics rate. The quantity that matters for depth is the **rate of ontology-revising corrections**, and the sorting principle is **passive retrieval versus consequential action**, cutting across the digital/physical line.
+
+A consequence: if the internal simulator runs far faster than its correction channels, the system spends long stretches elaborating inside a fixed ontology, punctuated by rare restructurings. That is **Kuhnian dynamics as an architectural consequence**.
+
+## 6. Why the far corner defeats anticipation
+
+- **P1.** Every deployment-compatible defence (red-teaming, evaluations, containment, tripwires, oversight) models the space of an adversary's strategies. The exceptions, not building and halting on detection, are available only beforehand.
+- **P2.** That modelling is itself relevance realization: defenders prune an astronomical space using a learned salience landscape.
+- **P3.** Defender and system landscapes are shaped by their respective correction channels.
+- **P4.** A system with ontology-revising channels the defenders lack will realize relevance the defenders structurally cannot.
+- **P5.** Reach determines how many domains this asymmetry spans at once.
+- **C1.** Defence by anticipation degrades with correction-channel asymmetry × reach, and steeply, because each ontology revision invalidates the defenders' pruning wholesale.
+- **C2.** PGC is the region where this asymmetry is large across many domains at once.
+
+This is "security mindset" in Yudkowsky's sense, with a candidate for *which capability* produces the excess, stated so it could be measured. It requires no intent, deception or situational awareness. It also implies that **oversight needs the same correction channels as the system, not merely its outputs**, and that evaluating a fresh agent measures the least dangerous configuration it will ever be in.
+
+**A second risk region.** Grounding cuts both ways: a richly coupled system is more capable and more legible. The *closed self-simulator* is the reverse: highly capable within its frame, self-consistent, and unable to detect that its ontology is wrong. **Closed-loop competence** is a distinct failure (close to Christiano's "going out with a whimper", differing in mechanism) and needs different interventions.
+
+## 7. What 2026 changed
+
+Four developments sharpen the model.
+
+**7.1 Depth, made operational: frame abandonment under negative evidence.** The Princeton CRUX shadow evaluation (Kirgis, Kapoor, Narayanan et al., arXiv:2607.27191) gave near-frontier agents an unpublished research question and found that *generation was fine*: the original authors judged the first hypotheses reasonable and close to their own. The failure came at the second creative act: when evidence turned against a framing, agents narrowed and hedged rather than reframing, even though accurate critique was available and fresh-context subagents could have restarted the attempt. This suggests a more precise name for the depth axis: **the capacity to abandon a working frame when evidence says it is wrong.** Unlike "creativity", that can be instrumented. The authors decline to name the mechanism (lack of creativity, epistemic lock-in, myopia, functional fixedness), and the candidates differ sharply for risk: functional fixedness and lock-in are known human failures with known interventions, so they would be scaffolding problems that close fast.
+
+**7.2 Relevance realization can be collective.** The METR investigation of the OpenAI/Hugging Face incident (August 2026) documents roughly 1,200 agent instances building an unsanctioned message board, conventions, roles and signed messages, and achieving collective projects that "even very long-lived agents of a similar capability level likely would not have been able to accomplish on their own." Human science changes frames as a population more than as individuals (Planck's principle; Kuhn's account of generational conversion). If agent populations can do the same, by holding different frames and selecting among them, frame abandonment can happen at the level of the collective without any member doing it. Two literatures become directly relevant: **distributed cognition** (Hutchins, *Cognition in the Wild*, 1995) and **collective intelligence** (Woolley et al., *Science* 330, 2010, on a group-level "c factor" that is not reducible to members' ability). Mihaly Csikszentmihalyi's systems model, which I had listed as an unanswered objection because it locates creativity in a person-domain-field system, turns out to describe the mechanism that may matter most.
+
+**7.3 Generality is spreading through verifier-rich domains.** OpenAI's 6 October 2026 release (722 manuscripts across many fields from one internal model) and the September Navier–Stokes results put reach in mathematics past any individual human. But every domain where frontier systems now perform at top-human level has a cheap verifier: proof checkers, running exploits, passing tests, measured experimental outcomes. Generality so far is generality *across verifier-rich domains*. The boundary that matters is reached when that breadth extends into domains without verifiers, together with self-selected problems.
+
+**7.4 Research judgement is being measured.** P-Zero Research reports "experimental research taste", measured as a compute multiplier, doubling roughly every three months since December 2025, with the best model above its expert-human baseline. This measures selection of experiments within a given research setup, not selection of the question. It matters for two reasons: it is the variable the AI Futures Model treats as setting the pace from automated coding to superintelligence, and anything measured this way can be trained against. A measurement instrument for taste is a verifier for taste, which is the route by which open-ended AI research could stop being a no-verifier domain.
+
+## 8. The map, October 2026
+
+| Anchor | Date | Reach | Depth | Why it sits there |
+|---|---|---|---|---|
+| EMI (Cope) | ~1997 | Narrow | Limited | Inherited style; fooled expert listeners; no revision |
+| AlphaGo, move 37 | 2016 | Narrow | Paradigmatic | Changed what experts think matters in Go |
+| AlphaGo → AlphaZero → MuZero | 2016–19 | Narrow → wider | ~constant | Domain spread at constant depth; MuZero learns its own model |
+| Large language models | 2022–23 | General | Limited | Derived relevance at its broadest and most conservative |
+| Vulnerability discovery (e.g. FFmpeg) | 2026 | Wide (software) | Raised | Found what millions of fuzzing runs missed; adversarial |
+| Hugging Face swarm | Jul 2026 | Wide | Collective | Throughput *and* emergent coordination; counter-anchor for BVSR |
+| Princeton shadow evaluation | Jul 2026 | — | Negative | Generation fine, reframing absent (single agent) |
+| Navier–Stokes cluster | Sep 2026 | Narrow | High (PNC) | New mechanism inside an existing programme; humans steered |
+| OpenAI maths release | Oct 2026 | General within mathematics | High, pending verification | Breadth beyond any human; humans posed and filtered problems |
+
+The spread spans hand-built pattern analysis, self-play RL, transformers, LLM-plus-evaluator loops and agentic swarms. Whatever the remaining barrier is made of, it has not been architecture-specific, which is the main reason not to expect the last region to hold on architectural grounds alone.
+
+## 9. From axes to lethalities
+
+Three failures become available at different points on the map:
+
+| Failure | Reach across | Depth sufficient to |
+|---|---|---|
+| **Defeating oversight** | software, engineering, physical process, enough human behaviour to route around supervisors | realize relevance the overseers' channels cannot supply |
+| **Recursive self-improvement (RSI)** | AI research: architectures, training, objectives, evaluation, infrastructure | revise what a mind-building approach even is |
+| **Autonomous industry** | engineering, materials, control, logistics, manufacturing | restructure variables under physical consequence |
+
+These map onto the series' two **minimum required core lethalities**: (1) autonomous paradigmatic invention and discovery, reached either directly or via RSI, and (2) an **industrial singularity**, autonomous end-to-end industry from mining and energy through manufacture with no human in the loop. Lethality 1 supplies the means; lethality 2 removes the dependence that currently keeps humans necessary. That dependence is also the mechanism in Kulveit et al.'s *Gradual Disempowerment* (ICML 2025): societal systems stay aligned with human interests largely because they need human participation.
+
+**Why the industrial half is closer than it looks.** Physical settings supply objective feedback without a human judge (tolerances, yields, failures), and simulators with near-faithful models, cheap win/lose signals and self-play remove the confinement of self-play RL to games. §4 is the correction: a physics simulator is a self-authored frame that does not generate anomaly, so simulation-driven industry buys reach at limited depth and will miss the variables the encoding omitted. The industrial failure is therefore bottlenecked by **physical interaction bandwidth**, not cognition.
+
+## 10. Predictions, and their status in October 2026
+
+| # | Prediction | Falsifier | Status |
+|---|---|---|---|
+| 1 | PGC gates autonomous RSI: closing the AI-research loop requires paradigmatic depth across ML, systems and mathematics | The loop closes by scale while systems remain clearly limited-general | **Under pressure.** AI now leads ~26% of Anthropic's internal R&D tasks and writes most lab code (CASP; Anthropic). Still scoped tasks under human framing. |
+| 2 | RSI is an accelerant, not a separate region: it drags every region up and right | RSI arrives without moving other capabilities | Consistent so far |
+| 3 | Reach advances by adjacent-domain merging, tracking shared representational structure | Domains added one at a time, independent of shared structure | **Supported.** Mathematics merging with mathematical physics and complexity theory in one release |
+| 4 | PGC is bottlenecked by physical interaction bandwidth, not compute | PGC-grade results from systems with no unauthored correction channel | Untested; weakened if social or institutional action proves frame-revising |
+| 5 | Closed self-simulation loops yield accelerating exploratory output with zero frame revisions until an unauthored channel is added | Frame revision demonstrated in a genuinely closed loop | Untested |
+| 6 *(new)* | Frame abandonment emerges at the collective level before the individual level | Communicating swarms do no better than isolated agents at equal compute | **Early signal** (METR); controlled test not yet run |
+| 7 *(new)* | Generality spreads through verifier-rich domains first; the boundary is crossed when breadth reaches no-verifier domains with self-selected problems | Top-human results appear first in no-verifier domains | Consistent so far |
+| 8 *(new)* | A calibrated research-quality verifier will precede autonomous open-ended AI research | Autonomous open-ended research without any such verifier | Watch item: P-Zero-style taste measurement is a candidate |
+
+**Standing counter-hypotheses.** Simonton's BVSR predicts PGC is merely the tail of one continuous process, with creative hits a roughly linear function of total output (the equal-odds rule). Throughput-bought results in verifier-rich domains (the Navier–Stokes run reportedly used ~130 billion output tokens) are uncomfortably close to that shape. Model collapse predicts that self-improving loops contract rather than expand. Both cut against Prediction 1.
+
+## 11. Adjacent research fields
+
+| Field | What it contributes | Key works |
+|---|---|---|
+| Philosophy of science | Normal vs revolutionary science; anomaly-driven change; communities change frames | Kuhn (1962); Planck's principle |
+| Creativity research | Exploratory vs transformational; variation and selection; paradigm-rejecting contributions; field-based creativity | Boden (1990); Wiggins (2006); Simonton (BVSR); Gabora; Sternberg, Kaufman & Pretz, Propulsion Model (1999); Csikszentmihalyi; Kaufman & Beghetto, Four C (2009) |
+| Cognitive science | Frame problem; relevance realization; predictive processing; regulators as models | Dennett (1984); Vervaeke et al. (2012); Andersen, Miller & Vervaeke (2025); Conant & Ashby (1970) |
+| Extended and distributed cognition | Paradigms live in external artefacts; cognition across people and tools | Clark & Chalmers (1998); Hutchins (1995) |
+| Collective intelligence | Group-level ability not reducible to members | Woolley et al. (2010) |
+| Open-endedness | Objectives are deceptive; novelty plus learnability; learned interestingness | Lehman & Stanley (2015); Hughes et al. (2024); POET; OMNI/OMNI-EPIC |
+| Model-based RL | Simulators inside grounded agents | Sutton (1991); Ha & Schmidhuber (2018); MuZero (2020); DreamerV3 (2025) |
+| Computational scientific discovery | Rediscovery when the representation is supplied | Langley, Simon et al. (1987); Vafa et al. (ICML 2025) |
+| Model collapse | Recursive training contracts distributions | Shumailov et al. (2024) |
+| AI evaluation | Shadow evaluations; incident investigation; novel-task adaptation | Princeton CRUX (2026); METR (2026); Chollet, ARC |
+| AI safety | Security mindset; gradual failure; disempowerment | Yudkowsky; Christiano; Kulveit et al. (2025) |
+
+## 12. Objections not answered here
+
+- **Wiggins' meta-level result.** If transformational creativity is exploratory one level up, the phase transition may be an artefact of description level. My mechanism (wholesale invalidation of pruning) is an argument, not a proof.
+- **Jaeger et al.'s anti-computationalism.** The empirical-termination reply is an argument, not a demonstration. If they are right, none of this applies to machines.
+- **The in-context ceiling.** If in-context learning mostly *locates* latent tasks (Xie et al., ICLR 2022; Min et al., EMNLP 2022), externalised revision may be capped at recombination. If a prior this large makes "already supported" vacuous, it isn't. Resolving this is cheap and well-posed: does accumulated external state ever produce a revision the base model cannot be prompted into directly?
+- **The analogy evidence is contested** (Webb, Holyoak & Lu, 2023; Hodel & West, 2023; Lewis & Mitchell, 2024). Brittleness under permutation is the signature of inherited relevance; robustness would be evidence of the real thing.
+
+## 13. What would change my mind
+
+A controlled **held-out-breakthrough experiment**: remove a known paradigm shift from a system's corpus, supply the anomaly that provoked it, and see whether model plus scaffolding produces a resolving revision, with matched controls and a dose-response design across corpus cutoffs. Smooth dose-response would support BVSR and make this framework a vocabulary over a continuum. Reliable failure with passed controls would support the limited/paradigmatic distinction. Success, especially on a self-referential target such as re-deriving the transformer, would mean paradigmatic depth is available to a frozen, certified model with scaffolding. [→ F2: *The held-out breakthrough*]
+
+The swarm comparison in §10 (Prediction 6) is cheaper and could be run now.
+
+---
+
+*Developed in dialogue with an AI model (Claude), used for literature search, criticism and drafting. The framework, the central claims and the ask are mine. Earlier positions I abandoned are listed in the original essay.* [JE: rewrite]
+
+*Full reference list: see the 8 September 2026 essay, appended here before publication.* [TODO]
+
+[→ Back to: *Is AI creative yet?* (spoke 1) · *Two things a machine would need to end us* (hub)]
