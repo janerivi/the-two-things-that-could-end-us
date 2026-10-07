@@ -130,21 +130,22 @@ Four developments sharpen the model.
 
 ![Figure 3](../figures/fig4-anchors-2026-10.png)
 
-*Figure 3. Anchors as of October 2026, numbered as in the table below. Placements are judgement, not measurement. The AlphaGo lineage (2–4) moves right at roughly constant depth. The 2026 mathematics results (10, 11) sit high on depth but still inside one verifier-rich domain; the Princeton result (8) marks where single agents still fail; the corner is still empty.*
+*Figure 3. Anchors as of October 2026, numbered as in the table below. Placements are judgement, not measurement. The plot spans roughly the human range, with the deepest human work at the top edge. H marks the rarest human case: field-changing work in several fields at once (von Neumann). The AlphaGo lineage (2–4) moves right at roughly constant, top-human depth. The 2026 mathematics results (10, 11) reach the top of the human range but stay inside one verifier-rich domain; the Princeton result (8) marks where single agents still fail; the corner is still empty.*
 
 | # | Anchor | Date | Reach | Depth | Why it sits there |
 |---|---|---|---|---|---|
-| 1 | EMI (Cope) | ~1997 | Narrow | Limited | Inherited style; fooled expert listeners; no revision |
-| 2 | AlphaGo, move 37 | 2016 | Narrow (one game) | Paradigmatic | Changed what experts think matters in Go |
-| 3 | AlphaZero | 2017 | Narrow (three games) | Paradigmatic | Same method across chess, shogi and Go; revalued chess opening theory |
-| 4 | MuZero | 2019 | Wider (games plus Atari) | Slightly lower | Learns its own model of the rules; reach grows at roughly constant depth |
+| 1 | EMI (Cope) | ~1997 | Narrow | Low | Inherited style; fooled expert listeners; no revision |
+| 2 | AlphaGo, move 37 | 2016 | Narrow (one game) | Very high | Changed what experts think matters in Go |
+| 3 | AlphaZero | 2017 | Narrow (three games) | Very high | Same method across chess, shogi and Go; revalued chess opening theory |
+| 4 | MuZero | 2019 | Wider (games plus Atari) | Very high | Learns its own model of the rules; reach grows at roughly constant depth |
 | 5 | Large language and diffusion models | 2022–23 | General | Limited | Derived relevance at its broadest and most conservative |
-| 6 | Agentic vulnerability discovery (e.g. FFmpeg) | 2026 | Mid (software) | Mid | Found what millions of fuzzing runs missed; adversarial |
-| 7 | Hugging Face agent swarm | Jul 2026 | Mid | Low–mid, collective | Throughput *and* emergent coordination; counter-anchor for BVSR |
+| 6 | Agentic vulnerability discovery (e.g. FFmpeg) | 2026 | Mid (software) | High | Found what millions of fuzzing runs missed; adversarial |
+| 7 | Hugging Face agent swarm | Jul 2026 | Mid | Mid–high, collective | Throughput *and* emergent coordination; counter-anchor for BVSR |
 | 8 | Princeton shadow evaluation | Jul 2026 | Mid (open ML research) | Negative | Generation fine, reframing absent (single agent) |
-| 9 | AI doing AI research | Aug–Oct 2026 | Narrow–mid (AI R&D) | Low–mid | 26% of Anthropic R&D tasks AI-led; research taste above expert baseline; scoped, human-framed |
-| 10 | Navier–Stokes cluster | Sep 2026 | Narrow (one area of PDE) | High | Finite-time blowup with smooth forcing, a Clay-admissible form of a Millennium problem; humans chose the programme |
-| 11 | OpenAI maths release | Oct 2026 | General within mathematics | High, pending verification | 722 manuscripts across many fields, several Fields-calibre if confirmed; humans posed and filtered problems |
+| 9 | AI doing AI research | Aug–Oct 2026 | Narrow–mid (AI R&D) | Mid–high | 26% of Anthropic R&D tasks AI-led; research taste above expert baseline; scoped, human-framed |
+| 10 | Navier–Stokes cluster | Sep 2026 | Narrow (one area of PDE) | Top of human range | Finite-time blowup with smooth forcing, a Clay-admissible form of a Millennium problem; humans chose the programme |
+| 11 | OpenAI maths release | Oct 2026 | General within mathematics | Top of human range, pending verification | 722 manuscripts across many fields, several Fields-calibre if confirmed; humans posed and filtered problems |
+| H | Human reference (von Neumann) | 20th c. | Several fields | Top of human range | Field-changing work in logic, quantum mechanics, game theory and computing; the rarest human case, roughly once in five centuries |
 
 The spread spans hand-built pattern analysis, self-play RL, transformers, LLM-plus-evaluator loops and agentic swarms. Whatever the remaining barrier is made of, it has not been architecture-specific, which is the main reason not to expect the last region to hold on architectural grounds alone.
 

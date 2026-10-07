@@ -116,21 +116,22 @@ Fire utviklinger skjerper modellen.
 
 ![Figur 3](../../figures/fig4-anchors-2026-10-nb.png)
 
-*Figur 3. Ankerpunkter per oktober 2026, nummerert som i tabellen under. Plasseringene er skjønn, ikke målinger. AlphaGo-slekten (2–4) beveger seg mot høyre med omtrent konstant dybde. Matematikkresultatene fra 2026 (10, 11) ligger høyt på dybde, men fortsatt innenfor ett domene med etterprøving; Princeton-resultatet (8) markerer hvor enkeltagenter fortsatt svikter; hjørnet er fortsatt tomt.*
+*Figur 3. Ankerpunkter per oktober 2026, nummerert som i tabellen under. Plasseringene er skjønn, ikke målinger. Feltet dekker omtrent det menneskelige spennet, med det dypeste mennesker har gjort, ved øvre kant. H markerer det sjeldneste menneskelige tilfellet: feltendrende arbeid i flere felt samtidig (von Neumann). AlphaGo-slekten (2–4) beveger seg mot høyre med omtrent konstant dybde på menneskelig toppnivå. Matematikkresultatene fra 2026 (10, 11) når toppen av det menneskelige spennet, men holder seg innenfor ett domene med etterprøving; Princeton-resultatet (8) markerer hvor enkeltagenter fortsatt svikter; hjørnet er fortsatt tomt.*
 
 | # | Ankerpunkt | Dato | Rekkevidde | Dybde | Hvorfor det ligger der |
 |---|---|---|---|---|---|
-| 1 | EMI (Cope) | ~1997 | Smal | Begrenset | Arvet stil; lurte ekspertlyttere; ingen revisjon |
-| 2 | AlphaGo, trekk 37 | 2016 | Smal (ett spill) | Paradigmatisk | Endret hva eksperter mener betyr noe i go |
-| 3 | AlphaZero | 2017 | Smal (tre spill) | Paradigmatisk | Samme metode i sjakk, shogi og go; omvurderte sjakkens åpningsteori |
-| 4 | MuZero | 2019 | Bredere (spill pluss Atari) | Litt lavere | Lærer sin egen modell av reglene; rekkevidden vokser med omtrent konstant dybde |
+| 1 | EMI (Cope) | ~1997 | Smal | Lav | Arvet stil; lurte ekspertlyttere; ingen revisjon |
+| 2 | AlphaGo, trekk 37 | 2016 | Smal (ett spill) | Svært høy | Endret hva eksperter mener betyr noe i go |
+| 3 | AlphaZero | 2017 | Smal (tre spill) | Svært høy | Samme metode i sjakk, shogi og go; omvurderte sjakkens åpningsteori |
+| 4 | MuZero | 2019 | Bredere (spill pluss Atari) | Svært høy | Lærer sin egen modell av reglene; rekkevidden vokser med omtrent konstant dybde |
 | 5 | Store språk- og diffusjonsmodeller | 2022–23 | Generell | Begrenset | Avledet relevans på sitt bredeste og mest konservative |
-| 6 | Agentisk sårbarhetsforskning (f.eks. FFmpeg) | 2026 | Middels (programvare) | Middels | Fant det millioner av fuzzing-kjøringer overså; med motstander |
-| 7 | Agentsvermen mot Hugging Face | jul. 2026 | Middels | Lav–middels, kollektiv | Volum *og* emergent koordinering; motankerpunkt for BVSR |
+| 6 | Agentisk sårbarhetsforskning (f.eks. FFmpeg) | 2026 | Middels (programvare) | Høy | Fant det millioner av fuzzing-kjøringer overså; med motstander |
+| 7 | Agentsvermen mot Hugging Face | jul. 2026 | Middels | Middels–høy, kollektiv | Volum *og* emergent koordinering; motankerpunkt for BVSR |
 | 8 | Princetons skyggeevaluering | jul. 2026 | Middels (åpen ML-forskning) | Negativ | Generering god, nyinnramming fraværende (enkeltagent) |
-| 9 | KI som forsker på KI | aug.–okt. 2026 | Smal–middels (KI-FoU) | Lav–middels | 26 % av Anthropics FoU-oppgaver ledet av KI; forskningssmak over ekspertnivå; avgrenset, menneskelig innrammet |
-| 10 | Navier–Stokes-klyngen | sep. 2026 | Smal (ett område av PDE) | Høy | Sammenbrudd i endelig tid med glatt ytre kraft, en Clay-godkjent form av et millennium-problem; mennesker valgte programmet |
-| 11 | OpenAIs matematikkutgivelse | okt. 2026 | Generell innen matematikk | Høy, kontrolleres | 722 manuskripter i mange felt, flere på Fields-nivå hvis de bekreftes; mennesker stilte og silte problemene |
+| 9 | KI som forsker på KI | aug.–okt. 2026 | Smal–middels (KI-FoU) | Middels–høy | 26 % av Anthropics FoU-oppgaver ledet av KI; forskningssmak over ekspertnivå; avgrenset, menneskelig innrammet |
+| 10 | Navier–Stokes-klyngen | sep. 2026 | Smal (ett område av PDE) | Toppen av det menneskelige spennet | Sammenbrudd i endelig tid med glatt ytre kraft, en Clay-godkjent form av et millennium-problem; mennesker valgte programmet |
+| 11 | OpenAIs matematikkutgivelse | okt. 2026 | Generell innen matematikk | Toppen av det menneskelige spennet, kontrolleres | 722 manuskripter i mange felt, flere på Fields-nivå hvis de bekreftes; mennesker stilte og silte problemene |
+| H | Menneskelig referanse (von Neumann) | 1900-tallet | Flere felt | Toppen av det menneskelige spennet | Feltendrende arbeid i logikk, kvantemekanikk, spillteori og databehandling; det sjeldneste menneskelige tilfellet, omtrent én gang på fem hundre år |
 
 Spennet dekker håndbygd mønsteranalyse, selvspill-RL, transformere, sløyfer av språkmodell pluss evaluator og agentsvermer. Hva enn den gjenværende barrieren består av, har den ikke vært knyttet til én arkitektur, og det er hovedgrunnen til ikke å forvente at det siste området vil holde av arkitektoniske grunner alene.
 
