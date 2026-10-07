@@ -1,61 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1060" width="1440" height="1060" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1474" width="1440" height="1474" font-family="Helvetica, Arial, sans-serif">
 <defs>
-<radialGradient id="risk" cx="1100" cy="150" r="1172" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000000"/><stop offset="0.2557" stop-color="#000000"/><stop offset="0.2795" stop-color="#1c0404"/><stop offset="0.2974" stop-color="#5c0c0c"/><stop offset="0.3212" stop-color="#a81414"/><stop offset="0.345" stop-color="#e02424"/><stop offset="0.405" stop-color="#f97316"/><stop offset="0.525" stop-color="#facc15"/><stop offset="0.685" stop-color="#e8f24a"/><stop offset="0.86" stop-color="#22c55e"/><stop offset="1" stop-color="#22c55e"/></radialGradient>
+<radialGradient id="risk" cx="1120" cy="150" r="1172" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000000"/><stop offset="0.2557" stop-color="#000000"/><stop offset="0.2795" stop-color="#1c0404"/><stop offset="0.2974" stop-color="#5c0c0c"/><stop offset="0.3212" stop-color="#a81414"/><stop offset="0.345" stop-color="#e02424"/><stop offset="0.405" stop-color="#f97316"/><stop offset="0.525" stop-color="#facc15"/><stop offset="0.685" stop-color="#e8f24a"/><stop offset="0.86" stop-color="#22c55e"/><stop offset="1" stop-color="#22c55e"/></radialGradient>
 <marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="26" markerHeight="18" refX="0" refY="9" orient="auto"><path d="M0,0 L26,9 L0,18 Z" fill="#111"/></marker>
-<marker id="tarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/></marker>
+<marker id="tarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker>
 </defs>
-<rect width="1440" height="1060" fill="#ffffff"/>
-<text x="710.0" y="52" text-anchor="middle" font-size="34" font-weight="700" fill="#111">AI creativity anchors, October 2026</text>
-<text x="710.0" y="84" text-anchor="middle" font-size="20" fill="#555">Placements are judgement, not measurement. The corner is still empty.</text>
-<rect x="200" y="150" width="900" height="750" fill="url(#risk)"/>
-<line x1="650.0" y1="150" x2="650.0" y2="900" stroke="#111" stroke-width="2" stroke-dasharray="9,7" opacity="0.35"/>
-<line x1="200" y1="525.0" x2="1100" y2="525.0" stroke="#111" stroke-width="2" stroke-dasharray="9,7" opacity="0.35"/>
-<path id="bnd" d="M 748.5 150.0 L 748.6 154.6 L 748.7 159.2 L 748.8 163.8 L 749.0 168.4 L 749.3 173.0 L 749.6 177.6 L 750.0 182.2 L 750.5 186.7 L 751.0 191.3 L 751.5 195.9 L 752.2 200.4 L 752.9 205.0 L 753.6 209.5 L 754.4 214.0 L 755.3 218.6 L 756.2 223.1 L 757.2 227.6 L 758.2 232.0 L 759.4 236.5 L 760.5 241.0 L 761.7 245.4 L 763.0 249.8 L 764.3 254.2 L 765.7 258.6 L 767.2 263.0 L 768.7 267.3 L 770.3 271.6 L 771.9 276.0 L 773.6 280.2 L 775.3 284.5 L 777.1 288.7 L 778.9 293.0 L 780.8 297.1 L 782.8 301.3 L 784.8 305.4 L 786.8 309.6 L 789.0 313.6 L 791.1 317.7 L 793.4 321.7 L 795.6 325.7 L 798.0 329.7 L 800.3 333.6 L 802.8 337.5 L 805.2 341.4 L 807.8 345.3 L 810.4 349.1 L 813.0 352.8 L 815.7 356.6 L 818.4 360.3 L 821.2 364.0 L 824.0 367.6 L 826.9 371.2 L 829.8 374.7 L 832.7 378.3 L 835.8 381.7 L 838.8 385.2 L 841.9 388.6 L 845.1 391.9 L 848.2 395.2 L 851.5 398.5 L 854.8 401.8 L 858.1 404.9 L 861.4 408.1 L 864.8 411.2 L 868.3 414.2 L 871.7 417.3 L 875.3 420.2 L 878.8 423.1 L 882.4 426.0 L 886.0 428.8 L 889.7 431.6 L 893.4 434.3 L 897.2 437.0 L 900.9 439.6 L 904.7 442.2 L 908.6 444.8 L 912.5 447.2 L 916.4 449.7 L 920.3 452.0 L 924.3 454.4 L 928.3 456.6 L 932.3 458.9 L 936.4 461.0 L 940.4 463.2 L 944.6 465.2 L 948.7 467.2 L 952.9 469.2 L 957.0 471.1 L 961.3 472.9 L 965.5 474.7 L 969.8 476.4 L 974.0 478.1 L 978.4 479.7 L 982.7 481.3 L 987.0 482.8 L 991.4 484.3 L 995.8 485.7 L 1000.2 487.0 L 1004.6 488.3 L 1009.0 489.5 L 1013.5 490.6 L 1018.0 491.8 L 1022.4 492.8 L 1026.9 493.8 L 1031.4 494.7 L 1036.0 495.6 L 1040.5 496.4 L 1045.0 497.1 L 1049.6 497.8 L 1054.1 498.5 L 1058.7 499.0 L 1063.3 499.5 L 1067.8 500.0 L 1072.4 500.4 L 1077.0 500.7 L 1081.6 501.0 L 1086.2 501.2 L 1090.8 501.3 L 1095.4 501.4 L 1100.0 501.5" fill="none"/>
-<text font-size="16" font-weight="700" fill="#ffffff" letter-spacing="0.4" stroke="#000" stroke-width="2.6" stroke-opacity="0.55" paint-order="stroke"><textPath href="#bnd" startOffset="6%">Boundary of AI Creativity Sufficient for Extinction</textPath></text>
-<text x="218" y="186" text-anchor="start" font-size="22" font-weight="700" fill="#111">PNC</text>
-<text x="1082" y="186" text-anchor="end" font-size="22" font-weight="700" fill="#fff">PGC</text>
-<text x="218" y="882" text-anchor="start" font-size="22" font-weight="700" fill="#111">LNC</text>
-<text x="1082" y="882" text-anchor="end" font-size="22" font-weight="700" fill="#111">LGC</text>
-<g transform="translate(1005 260) scale(1.6)" fill="#fff"><circle cx="0" cy="-2" r="15"/><circle cx="-5.4" cy="-4" r="4.1" fill="#000"/><circle cx="5.4" cy="-4" r="4.1" fill="#000"/><path d="M -1.9 3.4 L 0 7.4 L 1.9 3.4 Z" fill="#000"/><rect x="-8" y="12" width="16" height="9" rx="2.6"/><line x1="-2.7" y1="12" x2="-2.7" y2="21" stroke="#000" stroke-width="1.5"/><line x1="2.7" y1="12" x2="2.7" y2="21" stroke="#000" stroke-width="1.5"/></g>
-<text x="1005" y="330" text-anchor="middle" font-size="16" font-style="italic" fill="#fff">the corner is still empty</text>
-<circle cx="250" cy="840" r="9" fill="#15803d" stroke="#fff" stroke-width="2"/>
-<text x="268" y="838" text-anchor="start" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">~1997 · EMI</text>
-<text x="268" y="858" text-anchor="start" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">inherited relevance, one domain</text>
-<circle cx="270" cy="400" r="9" fill="#111" stroke="#fff" stroke-width="2"/>
-<text x="288" y="398" text-anchor="start" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">2016 · AlphaGo move 37</text>
-<text x="288" y="418" text-anchor="start" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">relevance function revised, one game</text>
-<line x1="285" y1="480" x2="478" y2="480" stroke="#222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#tarrow)"/>
-<circle cx="280" cy="480" r="6.5" fill="#444" stroke="#fff" stroke-width="1.5"/>
-<circle cx="382" cy="480" r="6.5" fill="#444" stroke="#fff" stroke-width="1.5"/>
-<circle cx="485" cy="480" r="6.5" fill="#444" stroke="#fff" stroke-width="1.5"/>
-<text x="500" y="478" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">2016–19 · AlphaGo → AlphaZero → MuZero</text>
-<text x="500" y="498" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">reach grows, depth roughly constant</text>
-<circle cx="430" cy="300" r="9" fill="#1f4f8b" stroke="#fff" stroke-width="2"/>
-<text x="448" y="298" text-anchor="start" font-size="17" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">Sep 2026 · Navier–Stokes cluster</text>
-<text x="448" y="318" text-anchor="start" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">forced blowup; humans chose the attack</text>
-<circle cx="700" cy="250" r="9" fill="#111" stroke="#fff" stroke-width="2"/>
-<text x="682" y="248" text-anchor="end" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">2026 · vulnerability discovery</text>
-<text x="682" y="268" text-anchor="end" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">verifiable, vast, adversarial</text>
-<circle cx="770" cy="380" r="9" fill="#1f4f8b" stroke="#fff" stroke-width="2"/>
-<text x="752" y="378" text-anchor="end" font-size="17" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">Oct 2026 · OpenAI maths release</text>
-<text x="752" y="398" text-anchor="end" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">breadth past any human</text>
-<circle cx="700" cy="630" r="9" fill="#fff" stroke="#111" stroke-width="2.4" stroke-dasharray="3.5 3"/>
-<text x="718" y="628" text-anchor="start" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">Jul 2026 · Hugging Face agent swarm</text>
-<text x="718" y="648" text-anchor="start" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">throughput plus emergent coordination</text>
-<circle cx="960" cy="750" r="9" fill="#111" stroke="#fff" stroke-width="2"/>
-<text x="942" y="748" text-anchor="end" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">2022–23 · LLMs and diffusion</text>
-<text x="942" y="768" text-anchor="end" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">limited-general</text>
-<g transform="translate(840 845)" stroke="#7a1f18" stroke-width="3.4" stroke-linecap="round"><line x1="-8" y1="-8" x2="8" y2="8"/><line x1="-8" y1="8" x2="8" y2="-8"/></g>
-<text x="822" y="843" text-anchor="end" font-size="17" font-weight="600" fill="#111" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">Jul 2026 · Princeton shadow evaluation</text>
-<text x="822" y="863" text-anchor="end" font-size="14.5" fill="#333" stroke="#ffffff" stroke-width="3" stroke-opacity="0.7" paint-order="stroke" stroke-linejoin="round">single agent generates, fails to reframe</text>
-<line x1="200" y1="900" x2="1130" y2="900" stroke="#111" stroke-width="7" marker-end="url(#arrow)"/>
-<line x1="200" y1="900" x2="200" y2="120" stroke="#111" stroke-width="7" marker-end="url(#arrow)"/>
-<text x="1170" y="908" font-size="24" font-weight="700" fill="#111">More General</text>
-<text x="200" y="80" text-anchor="middle" font-size="24" font-weight="700" fill="#111">More Paradigmatic</text>
-<text x="425.0" y="942" text-anchor="middle" font-size="21" fill="#333">Narrow</text>
-<text x="875.0" y="942" text-anchor="middle" font-size="21" fill="#333">General</text>
-<text x="182" y="337.5" text-anchor="end" font-size="21" fill="#333">Paradigmatic</text>
-<text x="182" y="712.5" text-anchor="end" font-size="21" fill="#333">Limited</text>
-<text x="200" y="1000" font-size="15" fill="#555">Blue: mathematics. Hollow: collective (swarm). ✕: negative result. Dashed track: the same method spreading across domains.</text>
-<text x="200" y="1024" font-size="15" fill="#555">Colour is distance from the corner, not a threshold: the axes are continuous and the field has no agreed way to measure depth.</text>
+<rect width="1440" height="1474" fill="#fff"/>
+<text x="730.0" y="52" text-anchor="middle" font-size="34" font-weight="700" fill="#111">AI creativity anchors, October 2026</text>
+<text x="730.0" y="84" text-anchor="middle" font-size="20" fill="#555">Placements are judgement, not measurement. The corner is still empty.</text>
+<rect x="220" y="150" width="900" height="750" fill="url(#risk)"/>
+<line x1="670.0" y1="150" x2="670.0" y2="900" stroke="#111" stroke-width="2" stroke-dasharray="9,7" opacity="0.35"/>
+<line x1="220" y1="525.0" x2="1120" y2="525.0" stroke="#111" stroke-width="2" stroke-dasharray="9,7" opacity="0.35"/>
+<path id="bnd" d="M 768.5 150.0 L 768.6 154.6 L 768.7 159.2 L 768.8 163.8 L 769.0 168.4 L 769.3 173.0 L 769.6 177.6 L 770.0 182.2 L 770.5 186.7 L 771.0 191.3 L 771.5 195.9 L 772.2 200.4 L 772.9 205.0 L 773.6 209.5 L 774.4 214.0 L 775.3 218.6 L 776.2 223.1 L 777.2 227.6 L 778.2 232.0 L 779.4 236.5 L 780.5 241.0 L 781.7 245.4 L 783.0 249.8 L 784.3 254.2 L 785.7 258.6 L 787.2 263.0 L 788.7 267.3 L 790.3 271.6 L 791.9 276.0 L 793.6 280.2 L 795.3 284.5 L 797.1 288.7 L 798.9 293.0 L 800.8 297.1 L 802.8 301.3 L 804.8 305.4 L 806.8 309.6 L 809.0 313.6 L 811.1 317.7 L 813.4 321.7 L 815.6 325.7 L 818.0 329.7 L 820.3 333.6 L 822.8 337.5 L 825.2 341.4 L 827.8 345.3 L 830.4 349.1 L 833.0 352.8 L 835.7 356.6 L 838.4 360.3 L 841.2 364.0 L 844.0 367.6 L 846.9 371.2 L 849.8 374.7 L 852.7 378.3 L 855.8 381.7 L 858.8 385.2 L 861.9 388.6 L 865.1 391.9 L 868.2 395.2 L 871.5 398.5 L 874.8 401.8 L 878.1 404.9 L 881.4 408.1 L 884.8 411.2 L 888.3 414.2 L 891.7 417.3 L 895.3 420.2 L 898.8 423.1 L 902.4 426.0 L 906.0 428.8 L 909.7 431.6 L 913.4 434.3 L 917.2 437.0 L 920.9 439.6 L 924.7 442.2 L 928.6 444.8 L 932.5 447.2 L 936.4 449.7 L 940.3 452.0 L 944.3 454.4 L 948.3 456.6 L 952.3 458.9 L 956.4 461.0 L 960.4 463.2 L 964.6 465.2 L 968.7 467.2 L 972.9 469.2 L 977.0 471.1 L 981.3 472.9 L 985.5 474.7 L 989.8 476.4 L 994.0 478.1 L 998.4 479.7 L 1002.7 481.3 L 1007.0 482.8 L 1011.4 484.3 L 1015.8 485.7 L 1020.2 487.0 L 1024.6 488.3 L 1029.0 489.5 L 1033.5 490.6 L 1038.0 491.8 L 1042.4 492.8 L 1046.9 493.8 L 1051.4 494.7 L 1056.0 495.6 L 1060.5 496.4 L 1065.0 497.1 L 1069.6 497.8 L 1074.1 498.5 L 1078.7 499.0 L 1083.3 499.5 L 1087.8 500.0 L 1092.4 500.4 L 1097.0 500.7 L 1101.6 501.0 L 1106.2 501.2 L 1110.8 501.3 L 1115.4 501.4 L 1120.0 501.5" fill="none"/>
+<text font-size="16" font-weight="700" fill="#fff" letter-spacing="0.4" stroke="#000" stroke-width="2.6" stroke-opacity="0.55" paint-order="stroke"><textPath href="#bnd" startOffset="6%">Boundary of AI Creativity Sufficient for Extinction</textPath></text>
+<text x="238" y="186" text-anchor="start" font-size="22" font-weight="700" fill="#111">PNC</text>
+<text x="1102" y="186" text-anchor="end" font-size="22" font-weight="700" fill="#fff">PGC</text>
+<text x="238" y="882" text-anchor="start" font-size="22" font-weight="700" fill="#111">LNC</text>
+<text x="1102" y="882" text-anchor="end" font-size="22" font-weight="700" fill="#111">LGC</text>
+<g transform="translate(1025 260) scale(1.6)" fill="#fff"><circle cx="0" cy="-2" r="15"/><circle cx="-5.4" cy="-4" r="4.1" fill="#000"/><circle cx="5.4" cy="-4" r="4.1" fill="#000"/><path d="M -1.9 3.4 L 0 7.4 L 1.9 3.4 Z" fill="#000"/><rect x="-8" y="12" width="16" height="9" rx="2.6"/><line x1="-2.7" y1="12" x2="-2.7" y2="21" stroke="#000" stroke-width="1.5"/><line x1="2.7" y1="12" x2="2.7" y2="21" stroke="#000" stroke-width="1.5"/></g>
+<text x="1025" y="330" text-anchor="middle" font-size="16" font-style="italic" fill="#fff">the corner is still empty</text>
+<line x1="284.1" y1="444.0" x2="314.1" y2="434.7" stroke="#111" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#tarrow)"/>
+<line x1="354.7" y1="436.7" x2="387.7" y2="453.9" stroke="#111" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#tarrow)"/>
+<g transform="translate(292.0 810.0)"><circle r="17" fill="#15803d" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">1</text></g>
+<g transform="translate(265.0 450.0)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">2</text></g>
+<g transform="translate(337.0 427.5)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">3</text></g>
+<g transform="translate(409.0 465.0)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">4</text></g>
+<g transform="translate(994.0 780.0)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">5</text></g>
+<g transform="translate(670.0 525.0)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">6</text></g>
+<g transform="translate(715.0 675.0)"><circle r="17" fill="#fff" stroke="#111" stroke-width="2.5" stroke-dasharray="4 3"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#111">7</text></g>
+<g transform="translate(778.0 817.5)"><circle r="17" fill="#fff" stroke="#7a1f18" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#7a1f18">8</text><g stroke="#7a1f18" stroke-width="2.4" stroke-linecap="round"><line x1="15" y1="-15" x2="27" y2="-27"/><line x1="15" y1="-27" x2="27" y2="-15"/></g></g>
+<g transform="translate(544.0 600.0)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">9</text></g>
+<g transform="translate(364.0 315.0)"><circle r="17" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">10</text></g>
+<g transform="translate(625.0 360.0)"><circle r="17" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">11</text></g>
+<line x1="220" y1="900" x2="1150" y2="900" stroke="#111" stroke-width="7" marker-end="url(#arrow)"/>
+<line x1="220" y1="900" x2="220" y2="120" stroke="#111" stroke-width="7" marker-end="url(#arrow)"/>
+<text x="1190" y="908" font-size="24" font-weight="700" fill="#111">More General</text>
+<text x="220" y="80" text-anchor="middle" font-size="24" font-weight="700" fill="#111">More Paradigmatic</text>
+<text x="445.0" y="942" text-anchor="middle" font-size="21" fill="#333">Narrow</text>
+<text x="895.0" y="942" text-anchor="middle" font-size="21" fill="#333">General</text>
+<text x="202" y="337.5" text-anchor="end" font-size="21" fill="#333">Paradigmatic</text>
+<text x="202" y="712.5" text-anchor="end" font-size="21" fill="#333">Limited</text>
+<g transform="translate(122.0 1004.0)"><circle r="13" fill="#15803d" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text></g>
+<text x="140" y="1010" font-size="17" fill="#111"><tspan font-weight="700">~1997 · EMI (David Cope)</tspan><tspan fill="#444"> — Bach-style music that fooled expert listeners; inherited style, one domain</tspan></text>
+<g transform="translate(122.0 1038.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text></g>
+<text x="140" y="1044" font-size="17" fill="#111"><tspan font-weight="700">2016 · AlphaGo, move 37</tspan><tspan fill="#444"> — changed what professionals think matters in Go</tspan></text>
+<g transform="translate(122.0 1072.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text></g>
+<text x="140" y="1078" font-size="17" fill="#111"><tspan font-weight="700">2017 · AlphaZero</tspan><tspan fill="#444"> — same method, now chess and shogi too; revalued chess opening theory</tspan></text>
+<g transform="translate(122.0 1106.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">4</text></g>
+<text x="140" y="1112" font-size="17" fill="#111"><tspan font-weight="700">2019 · MuZero</tspan><tspan fill="#444"> — learns its own model of the rules; board games plus Atari</tspan></text>
+<g transform="translate(122.0 1140.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">5</text></g>
+<text x="140" y="1146" font-size="17" fill="#111"><tspan font-weight="700">2022–23 · Large language and diffusion models</tspan><tspan fill="#444"> — competent across almost every field humans write about, at modest depth</tspan></text>
+<g transform="translate(122.0 1174.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">6</text></g>
+<text x="140" y="1180" font-size="17" fill="#111"><tspan font-weight="700">2026 · Agentic vulnerability discovery</tspan><tspan fill="#444"> — found flaws millions of fuzzing runs missed; verifiable, vast, adversarial</tspan></text>
+<g transform="translate(122.0 1208.0)"><circle r="13" fill="#fff" stroke="#111" stroke-width="2.5" stroke-dasharray="4 3"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#111">7</text></g>
+<text x="140" y="1214" font-size="17" fill="#111"><tspan font-weight="700">Jul 2026 · Hugging Face agent swarm (METR)</tspan><tspan fill="#444"> — ~1,200 copies self-organised; collective projects beyond any single agent</tspan></text>
+<g transform="translate(122.0 1242.0)"><circle r="13" fill="#fff" stroke="#7a1f18" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#7a1f18">8</text></g>
+<text x="140" y="1248" font-size="17" fill="#111"><tspan font-weight="700">Jul 2026 · Princeton shadow evaluation</tspan><tspan fill="#444"> — open research question: good ideas, but failed to abandon a failing frame</tspan></text>
+<g transform="translate(122.0 1276.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">9</text></g>
+<text x="140" y="1282" font-size="17" fill="#111"><tspan font-weight="700">Aug–Oct 2026 · AI doing AI research</tspan><tspan fill="#444"> — 26% of Anthropic R&amp;D tasks AI-led; research taste above expert baseline (P-Zero)</tspan></text>
+<g transform="translate(122.0 1310.0)"><circle r="13" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">10</text></g>
+<text x="140" y="1316" font-size="17" fill="#111"><tspan font-weight="700">Sep 2026 · Navier–Stokes cluster</tspan><tspan fill="#444"> — finite-time blowup with smooth forcing: a Clay-admissible form of a Millennium problem</tspan></text>
+<g transform="translate(122.0 1344.0)"><circle r="13" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">11</text></g>
+<text x="140" y="1350" font-size="17" fill="#111"><tspan font-weight="700">Oct 2026 · OpenAI maths release</tspan><tspan fill="#444"> — 722 manuscripts across many fields; several Fields-calibre if confirmed</tspan></text>
+<text x="110" y="1414" font-size="15" fill="#555">Marker: filled = single system · blue = mathematics · hollow = collective (swarm) · ✕ = negative result · dashed arrows = same method spreading to new domains</text>
 </svg>
