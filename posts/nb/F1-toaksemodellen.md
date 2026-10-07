@@ -116,7 +116,7 @@ Fire utviklinger skjerper modellen.
 
 ![Figur 3](../../figures/fig4-anchors-2026-10-nb.png)
 
-*Figur 3. Ankerpunkter per oktober 2026, nummerert som i tabellen under. Plasseringene er skjønn, ikke målinger. Feltet dekker omtrent det menneskelige spennet, med det dypeste mennesker har gjort, ved øvre kant. H markerer det sjeldneste menneskelige tilfellet: feltendrende arbeid i flere felt samtidig (von Neumann). AlphaGo-slekten (2–4) beveger seg mot høyre med omtrent konstant dybde på menneskelig toppnivå. Matematikkresultatene fra 2026 (10, 11) når toppen av det menneskelige spennet, men holder seg innenfor ett domene med etterprøving; Princeton-resultatet (8) markerer hvor enkeltagenter fortsatt svikter; hjørnet er fortsatt tomt.*
+*Figur 3. Ankerpunkter per oktober 2026, nummerert som i tabellen under. Plasseringene er skjønn, ikke målinger. Feltet dekker omtrent det menneskelige spennet, med det dypeste mennesker har gjort, ved øvre kant. H markerer det sjeldneste menneskelige tilfellet, feltendrende arbeid i flere felt samtidig: John von Neumann, trolig det ene mennesket som har nådd hjørnet. AlphaGo-slekten (2–4) beveger seg mot høyre med omtrent konstant dybde på menneskelig toppnivå. Matematikkresultatene fra 2026 (10, 11) når toppen av det menneskelige spennet, men holder seg innenfor ett domene med etterprøving; Princeton-resultatet (8) markerer hvor enkeltagenter fortsatt svikter. Ingen KI har nådd hjørnet ennå.*
 
 | # | Ankerpunkt | Dato | Rekkevidde | Dybde | Hvorfor det ligger der |
 |---|---|---|---|---|---|
@@ -129,9 +129,11 @@ Fire utviklinger skjerper modellen.
 | 7 | Agentsvermen mot Hugging Face | jul. 2026 | Middels | Middels–høy, kollektiv | Volum *og* emergent koordinering; motankerpunkt for BVSR |
 | 8 | Princetons skyggeevaluering | jul. 2026 | Middels (åpen ML-forskning) | Negativ | Generering god, nyinnramming fraværende (enkeltagent) |
 | 9 | KI som forsker på KI | aug.–okt. 2026 | Smal–middels (KI-FoU) | Middels–høy | 26 % av Anthropics FoU-oppgaver ledet av KI; forskningssmak over ekspertnivå; avgrenset, menneskelig innrammet |
-| 10 | Navier–Stokes-klyngen | sep. 2026 | Smal (ett område av PDE) | Toppen av det menneskelige spennet | Sammenbrudd i endelig tid med glatt ytre kraft, en Clay-godkjent form av et millennium-problem; mennesker valgte programmet |
+| 10 | Navier–Stokes-klyngen | sep. 2026 | Smal–middels (PDE-analyse og strømningsfysikk) | Toppen av det menneskelige spennet | Sammenbrudd i endelig tid med glatt ytre kraft, en Clay-godkjent form av et millennium-problem; mennesker valgte programmet |
 | 11 | OpenAIs matematikkutgivelse | okt. 2026 | Generell innen matematikk | Toppen av det menneskelige spennet, kontrolleres | 722 manuskripter i mange felt, flere på Fields-nivå hvis de bekreftes; mennesker stilte og silte problemene |
-| H | Menneskelig referanse (von Neumann) | 1900-tallet | Flere felt | Toppen av det menneskelige spennet | Feltendrende arbeid i logikk, kvantemekanikk, spillteori og databehandling; det sjeldneste menneskelige tilfellet, omtrent én gang på fem hundre år |
+| H | Menneskelig referanse (von Neumann) | 1900-tallet | Flere felt | Toppen av det menneskelige spennet, i hjørnet | Feltendrende arbeid i logikk, kvantemekanikk, spillteori og databehandling; det sjeldneste menneskelige tilfellet, omtrent én gang på fem hundre år |
+
+**Én von Neumann, eller en million.** Det menneskelige referansepunktet gjør faren konkret. Ett menneske har trolig arbeidet på den dybden i så mange felt, og menneskeheten taklet det: von Neumann var ett sinn, som arbeidet i menneskelig tempo, innenfor menneskelige institusjoner. Et KI-system som nådde samme punkt, ville ikke vært ett sinn. Det kunne kopieres millioner av ganger og kjøre raskere enn noe menneske, det Anthropics toppsjef Dario Amodei har kalt «et land av genier i et datasenter» ([*Machines of Loving Grace*](https://www.darioamodei.com/essay/machines-of-loving-grace), 2024). Han mente det som et løfte. På dette kartet er det beskrivelsen av hjørnet.
 
 Spennet dekker håndbygd mønsteranalyse, selvspill-RL, transformere, sløyfer av språkmodell pluss evaluator og agentsvermer. Hva enn den gjenværende barrieren består av, har den ikke vært knyttet til én arkitektur, og det er hovedgrunnen til ikke å forvente at det siste området vil holde av arkitektoniske grunner alene.
 

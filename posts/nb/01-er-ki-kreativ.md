@@ -58,7 +58,7 @@ Mønsteret er slående. I 30 år har KI spredt seg mot høyre, fra ett spill til
 
 Men legg merke til hva som ikke har skjedd. I hvert tilfelle valgte mennesker fortsatt problemene. Og hvert av disse feltene har en billig måte å kontrollere svar på: et bevis holder, en utnyttelse virker, en test består. Da forskere ved Princeton ga KI-agenter et virkelig åpent forskningsspørsmål uten en slik kontroll, [gjorde agentene ingeniørarbeidet godt og mislyktes likevel](https://arxiv.org/abs/2607.27191): da den første ideen ikke fungerte, klarte de ikke å slippe den og prøve noe grunnleggende annerledes.
 
-Det er det tydeligste som fortsatt mangler. Hjørnet er fortsatt tomt. Det er mye nærmere enn for et år siden.
+Det er det tydeligste som fortsatt mangler. Ingen KI har nådd hjørnet ennå, og det er mye nærmere enn for et år siden. Ett menneske gjorde det trolig: John von Neumann, som gjorde feltendrende arbeid i logikk, kvantemekanikk, spillteori og databehandling. Menneskeheten taklet én von Neumann. En KI som nådde samme punkt, kunne kopieres en million ganger, det Anthropics toppsjef har kalt «et land av genier i et datasenter».
 
 ## Så: er KI kreativ ennå?
 

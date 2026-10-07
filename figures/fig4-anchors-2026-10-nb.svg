@@ -6,7 +6,7 @@
 </defs>
 <rect width="1440" height="1548" fill="#fff"/>
 <text x="730.0" y="52" text-anchor="middle" font-size="34" font-weight="700" fill="#111">Ankerpunkter for KI-kreativitet, oktober 2026</text>
-<text x="730.0" y="84" text-anchor="middle" font-size="20" fill="#555">Plasseringene er skjønn, ikke målinger. Hjørnet er fortsatt tomt.</text>
+<text x="730.0" y="84" text-anchor="middle" font-size="20" fill="#555">Plasseringene er skjønn, ikke målinger. Ingen KI har nådd hjørnet ennå.</text>
 <rect x="220" y="150" width="900" height="750" fill="url(#risk)"/>
 <line x1="670.0" y1="150" x2="670.0" y2="900" stroke="#111" stroke-width="2" stroke-dasharray="9,7" opacity="0.35"/>
 <line x1="220" y1="525.0" x2="1120" y2="525.0" stroke="#111" stroke-width="2" stroke-dasharray="9,7" opacity="0.35"/>
@@ -17,7 +17,7 @@
 <text x="238" y="882" text-anchor="start" font-size="22" font-weight="700" fill="#111">LNC</text>
 <text x="1102" y="882" text-anchor="end" font-size="22" font-weight="700" fill="#111">LGC</text>
 <g transform="translate(1025 260) scale(1.6)" fill="#fff"><circle cx="0" cy="-2" r="15"/><circle cx="-5.4" cy="-4" r="4.1" fill="#000"/><circle cx="5.4" cy="-4" r="4.1" fill="#000"/><path d="M -1.9 3.4 L 0 7.4 L 1.9 3.4 Z" fill="#000"/><rect x="-8" y="12" width="16" height="9" rx="2.6"/><line x1="-2.7" y1="12" x2="-2.7" y2="21" stroke="#000" stroke-width="1.5"/><line x1="2.7" y1="12" x2="2.7" y2="21" stroke="#000" stroke-width="1.5"/></g>
-<text x="1025" y="330" text-anchor="middle" font-size="16" font-style="italic" fill="#fff">hjørnet er fortsatt tomt</text>
+<text x="1025" y="330" text-anchor="middle" font-size="16" font-style="italic" fill="#fff">ingen KI her ennå</text>
 <line x1="275.3" y1="234.6" x2="286.9" y2="231.4" stroke="#111" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#tarrow)"/>
 <line x1="327.5" y1="234.7" x2="343.0" y2="243.3" stroke="#111" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#tarrow)"/>
 <g transform="translate(274.0 712.5)"><circle r="17" fill="#15803d" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">1</text></g>
@@ -29,9 +29,9 @@
 <g transform="translate(625.0 435.0)"><circle r="17" fill="#fff" stroke="#111" stroke-width="2.5" stroke-dasharray="4 3"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#111">7</text></g>
 <g transform="translate(715.0 675.0)"><circle r="17" fill="#fff" stroke="#7a1f18" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#7a1f18">8</text><g stroke="#7a1f18" stroke-width="2.4" stroke-linecap="round"><line x1="15" y1="-15" x2="27" y2="-27"/><line x1="15" y1="-27" x2="27" y2="-15"/></g></g>
 <g transform="translate(490.0 375.0)"><circle r="17" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">9</text></g>
-<g transform="translate(328.0 180.0)"><circle r="17" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">10</text></g>
+<g transform="translate(517.0 180.0)"><circle r="17" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">10</text></g>
 <g transform="translate(580.0 195.0)"><circle r="17" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">11</text></g>
-<g transform="translate(724.0 187.5)"><circle r="17" fill="#e5e7eb" stroke="#374151" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#111">H</text></g>
+<g transform="translate(868.0 187.5)"><circle r="17" fill="#e5e7eb" stroke="#374151" stroke-width="2.5"/><text y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#111">H</text></g>
 <line x1="220" y1="900" x2="1150" y2="900" stroke="#111" stroke-width="7" marker-end="url(#arrow)"/>
 <line x1="220" y1="900" x2="220" y2="120" stroke="#111" stroke-width="7" marker-end="url(#arrow)"/>
 <text x="1190" y="908" font-size="24" font-weight="700" fill="#111">Mer generell</text>
@@ -59,12 +59,12 @@
 <g transform="translate(122.0 1276.0)"><circle r="13" fill="#111" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">9</text></g>
 <text x="140" y="1282" font-size="17" fill="#111"><tspan font-weight="700">aug.–okt. 2026 · KI som forsker på KI</tspan><tspan fill="#444"> — 26 % av Anthropics FoU-oppgaver ledet av KI; forskningssmak over ekspertnivå (P-Zero)</tspan></text>
 <g transform="translate(122.0 1310.0)"><circle r="13" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">10</text></g>
-<text x="140" y="1316" font-size="17" fill="#111"><tspan font-weight="700">sep. 2026 · Navier–Stokes-klyngen</tspan><tspan fill="#444"> — sammenbrudd i endelig tid med glatt ytre kraft: en Clay-godkjent form av et millennium-problem</tspan></text>
+<text x="140" y="1316" font-size="17" fill="#111"><tspan font-weight="700">sep. 2026 · Navier–Stokes-klyngen</tspan><tspan fill="#444"> — sammenbrudd i endelig tid med glatt ytre kraft, en Clay-godkjent millennium-form; spenner over PDE-analyse og strømningsfysikk</tspan></text>
 <g transform="translate(122.0 1344.0)"><circle r="13" fill="#1f4f8b" stroke="#fff" stroke-width="2.5"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">11</text></g>
 <text x="140" y="1350" font-size="17" fill="#111"><tspan font-weight="700">okt. 2026 · OpenAIs matematikkutgivelse</tspan><tspan fill="#444"> — 722 manuskripter i mange felt; flere på Fields-nivå hvis de bekreftes</tspan></text>
 <g transform="translate(122 1378)"><circle r="13" fill="#e5e7eb" stroke="#374151" stroke-width="2"/><text y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#111">H</text></g>
-<text x="140" y="1384" font-size="17" fill="#111"><tspan font-weight="700">Menneskelig referanse</tspan><tspan fill="#444"> — feltendrende arbeid i flere felt samtidig, omtrent én gang på fem hundre år (von Neumann)</tspan></text>
-<text x="110" y="1440" font-size="15" fill="#555">Feltet dekker omtrent det menneskelige spennet: øvre kant er det dypeste mennesker har gjort (feltendrende). H markerer det sjeldneste</text>
-<text x="110" y="1464" font-size="15" fill="#555">menneskelige tilfellet, feltendrende arbeid i flere felt (von Neumann); det mørke hjørnet ligger utenfor alt i menneskets historie.</text>
+<text x="140" y="1384" font-size="17" fill="#111"><tspan font-weight="700">Menneskelig referanse: John von Neumann</tspan><tspan fill="#444"> — feltendrende arbeid i logikk, kvantemekanikk, spillteori og databehandling; omtrent én gang på fem hundre år</tspan></text>
+<text x="110" y="1440" font-size="15" fill="#555">Feltet dekker omtrent det menneskelige spennet: øvre kant er det dypeste mennesker har gjort (feltendrende). Ett menneske har trolig nådd</text>
+<text x="110" y="1464" font-size="15" fill="#555">hjørnet (H, von Neumann). Faren er ikke ett slikt sinn: det er millioner av kopier i maskinfart, et land av genier i et datasenter.</text>
 <text x="110" y="1488" font-size="15" fill="#555">Markør: fylt = enkeltsystem · blå = matematikk · hul = kollektiv (sverm) · ✕ = negativt resultat · stiplede piler = samme metode som sprer seg til nye domener</text>
 </svg>

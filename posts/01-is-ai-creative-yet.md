@@ -58,7 +58,7 @@ The pattern is striking. For 30 years AI has been spreading to the right, from o
 
 But notice what hasn't happened. In every case, humans still chose the problems. And every one of these fields has a cheap way of checking answers: a proof checks out, an exploit works, a test passes. When researchers at Princeton gave AI agents a genuinely open research question with no such checker, the agents [did the engineering well and still failed](https://arxiv.org/abs/2607.27191): when their first idea didn't work, they couldn't let go of it and try something fundamentally different.
 
-That is the clearest thing still missing. The corner is still empty. It is a lot less far away than it was a year ago.
+That is the clearest thing still missing. No AI has reached the corner yet, and it is a lot less far away than it was a year ago. One human arguably did: John von Neumann, who did field-changing work in logic, quantum mechanics, game theory and computing. Humanity coped with one von Neumann. An AI that reached the same point could be copied a million times, what Anthropic's chief executive has called "a country of geniuses in a datacenter".
 
 ## So: is AI creative yet?
 

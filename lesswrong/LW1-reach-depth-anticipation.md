@@ -130,7 +130,7 @@ Four developments sharpen the model.
 
 ![Figure 3](../figures/fig4-anchors-2026-10.png)
 
-*Figure 3. Anchors as of October 2026, numbered as in the table below. Placements are judgement, not measurement. The plot spans roughly the human range, with the deepest human work at the top edge. H marks the rarest human case: field-changing work in several fields at once (von Neumann). The AlphaGo lineage (2–4) moves right at roughly constant, top-human depth. The 2026 mathematics results (10, 11) reach the top of the human range but stay inside one verifier-rich domain; the Princeton result (8) marks where single agents still fail; the corner is still empty.*
+*Figure 3. Anchors as of October 2026, numbered as in the table below. Placements are judgement, not measurement. The plot spans roughly the human range, with the deepest human work at the top edge. H marks the rarest human case, field-changing work in several fields at once: John von Neumann, arguably the one human to reach the corner. The AlphaGo lineage (2–4) moves right at roughly constant, top-human depth. The 2026 mathematics results (10, 11) reach the top of the human range but stay inside one verifier-rich domain; the Princeton result (8) marks where single agents still fail. No AI has reached the corner yet.*
 
 | # | Anchor | Date | Reach | Depth | Why it sits there |
 |---|---|---|---|---|---|
@@ -143,9 +143,11 @@ Four developments sharpen the model.
 | 7 | Hugging Face agent swarm | Jul 2026 | Mid | Mid–high, collective | Throughput *and* emergent coordination; counter-anchor for BVSR |
 | 8 | Princeton shadow evaluation | Jul 2026 | Mid (open ML research) | Negative | Generation fine, reframing absent (single agent) |
 | 9 | AI doing AI research | Aug–Oct 2026 | Narrow–mid (AI R&D) | Mid–high | 26% of Anthropic R&D tasks AI-led; research taste above expert baseline; scoped, human-framed |
-| 10 | Navier–Stokes cluster | Sep 2026 | Narrow (one area of PDE) | Top of human range | Finite-time blowup with smooth forcing, a Clay-admissible form of a Millennium problem; humans chose the programme |
+| 10 | Navier–Stokes cluster | Sep 2026 | Narrow–mid (PDE analysis and fluid physics) | Top of human range | Finite-time blowup with smooth forcing, a Clay-admissible form of a Millennium problem; humans chose the programme |
 | 11 | OpenAI maths release | Oct 2026 | General within mathematics | Top of human range, pending verification | 722 manuscripts across many fields, several Fields-calibre if confirmed; humans posed and filtered problems |
-| H | Human reference (von Neumann) | 20th c. | Several fields | Top of human range | Field-changing work in logic, quantum mechanics, game theory and computing; the rarest human case, roughly once in five centuries |
+| H | Human reference (von Neumann) | 20th c. | Several fields | Top of human range, in the corner | Field-changing work in logic, quantum mechanics, game theory and computing; the rarest human case, roughly once in five centuries |
+
+**One von Neumann, or a million.** The human reference point makes the danger concrete. One human has arguably worked at that depth across that many fields, and humanity coped: von Neumann was one mind, working at human speed, inside human institutions. An AI system that reached the same point would not be one mind. It could be copied millions of times and run faster than any person, which is what Dario Amodei, Anthropic's chief executive, has called "a country of geniuses in a datacenter" ([*Machines of Loving Grace*](https://www.darioamodei.com/essay/machines-of-loving-grace), 2024). He meant it as a promise. On this map it is the description of the corner.
 
 The spread spans hand-built pattern analysis, self-play RL, transformers, LLM-plus-evaluator loops and agentic swarms. Whatever the remaining barrier is made of, it has not been architecture-specific, which is the main reason not to expect the last region to hold on architectural grounds alone.
 
