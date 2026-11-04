@@ -80,6 +80,8 @@ Not a ban on AI. Narrow tools that fold proteins, read scans or forecast weather
 
 I didn't always put it this bluntly. A month ago I argued that a halt should wait for a clear experimental result. What changed my mind is in this piece: maths at the level of the best humans across many fields, AI doing a growing share of its own development, research judgement passing human experts, and a thousand copies organising themselves without being asked. My own argument already said the moment to stop would arrive before the evidence became obvious. I now think we are at that moment.
 
+The halt is the first line, drawn on precaution. Behind it I keep a ladder of later lines, each of which should raise the alarm further for as long as no halt is in force: AI starting to improve itself, choosing its own problems, changing a field's basic assumptions with no quick way to check, swarms doing what single copies can't, attacks of a new kind, factories without people. I date where each one stands and update it as things happen. [→ Stop now, and keep watching the lines](14-alarm-ladder.md)
+
 A halt has to be global and verifiable to mean anything, and that is hard. It is also what the labs themselves say they would accept if everyone else did ([Anthropic, via Engadget](https://engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown)). Making it happen is a job for governments, and governments respond to people. [→ Why a ban, not a speed limit](09-ban-not-speed-limit.md)
 
 ## What I don't know

@@ -80,6 +80,8 @@ Ikke et forbud mot KI. Smale verktøy som bretter proteiner, leser røntgenbilde
 
 Jeg har ikke alltid sagt det så rett ut. For en måned siden argumenterte jeg for at en stans burde vente på et klart eksperimentelt resultat. Det som fikk meg til å endre mening, står i denne teksten: matematikk på nivå med de beste menneskene i mange felt, KI som gjør en stadig større del av sin egen utvikling, forskningsskjønn som passerer menneskelige eksperter, og tusen kopier som organiserte seg uten å bli bedt om det. Mitt eget argument sa allerede at tidspunktet for å stoppe ville komme før bevisene ble åpenbare. Jeg tror nå vi er der.
 
+Stansen er den første linjen, trukket ut fra føre var-prinsippet. Bak den holder jeg en stige av senere linjer, der hver enkelt bør øke alarmen ytterligere så lenge ingen stans er på plass: KI som begynner å forbedre seg selv, som velger sine egne problemer, som endrer et fagfelts grunnantakelser der svaret ikke kan sjekkes raskt, svermer som får til det enkeltkopier ikke kan, angrep av en ny type, fabrikker uten folk. Jeg daterer hvor hver av dem står, og oppdaterer etter hvert som ting skjer. [→ Stopp nå, og følg med på linjene (foreløpig på engelsk)](../14-alarm-ladder.md)
+
 En stans må være global og etterprøvbar for å bety noe, og det er vanskelig. Det er også det laboratoriene selv sier de ville godta hvis alle andre gjorde det samme ([Anthropic, via Engadget](https://engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown)). Å få det til er en jobb for myndighetene, og myndighetene lytter til folk. [→ Hvorfor forbud, ikke fartsgrense](09-forbud-ikke-fartsgrense.md)
 
 ## Hva jeg ikke vet
