@@ -44,6 +44,7 @@ Frame: own hook → three-sentence big-picture recap linking the hub → one cla
 | 13 | If they think it could kill us, why are they building it? | 3 | Solutionist culture ("solve intelligence, solve everything"; "make AI go well" as identity; successionist fringe; ageing), pipe-dream turn after Mythos/HF/maths, Altman 2015 blog and email (via Klein), lab founding chain, Amodei, Cruz, Anthropic conditional pause, Pachocki, Moloch; structure over good intentions |
 | 10 | An experiment that would tell us if it's ever safe to resume | 9 | Essay §12 |
 | 11 | Where I expect to be wrong | 10 | Essay §7, §11; BVSR, Wiggins, Jaeger |
+| 14 | Stop now, and keep watching the lines (living) | 9 | JE 2026-11-04: precautionary halt now plus an alarm ladder of later lines; creativity–RSI loop (Clark, Import AI 455/476/477); limited, CS-band creativity may suffice to start RSI; several roads; ETH ×2, Yang–Mills, Anthropic S-1/A, Oct cyber wave; S42–S53 |
 
 ## Third tier: foundations (JE, 2026-10-07)
 
